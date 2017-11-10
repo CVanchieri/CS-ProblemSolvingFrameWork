@@ -57,9 +57,9 @@ Even though it's possible to add custom sidebars and footers in subdirectories, 
 
 [Adding Images to Wikis](https://help.github.com/articles/adding-images-to-wikis/) (GitHub help)
 
-![Learn!](https://github.com/beejjorgensen/wiki-test/blob/master/wiki-images/learn-goddammit.jpg)
+![Are you sure about that?](https://github.com/LambdaSchool/BeejWiki/blob/master/wiki-images/cypher-disbelief.jpg)
 
-`![Learn!](https://github.com/beejjorgensen/wiki-test/blob/master/wiki-images/learn-goddammit.jpg)`
+`![Are you sure about that?](https://github.com/LambdaSchool/BeejWiki/blob/master/wiki-images/cypher-disbelief.jpg)`
 
 ## Home page
 
