@@ -1,5 +1,3 @@
-# Interview Questions
-
 ## Interpreted language vs compiled language
 
 Interpreted languages don’t run at the machine code level. They are interpreted by another program that executes the instructions. Sometimes interpreted programs are compiled to *bytecode* and the bytecode is what is interpreted, which allows the programs to be smaller and run more quickly.
