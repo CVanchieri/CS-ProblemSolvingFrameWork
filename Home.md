@@ -1,1 +1,5 @@
-Welcome to the BeejWiki wiki!
+# Beej's Wiki
+
+[[Beej's GitHub Wiki HowTo|GitHub Wiki HowTo]]
+
+[[Collected interview questions|Interview Questions]]
