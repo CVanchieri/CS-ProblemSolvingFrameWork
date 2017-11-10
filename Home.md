@@ -1,6 +1,9 @@
 # Welcome to Beej's Wiki
 
-[[Beej's GitHub Wiki HowTo]]
+Everything can be found on the Pages tab to the right.
 
-[[Collected Interview Questions]]
+Selected links:
+
+* [[Beej's GitHub Wiki HowTo]]
+* [[Collected Interview Questions]]
 
