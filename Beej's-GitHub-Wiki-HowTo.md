@@ -61,6 +61,11 @@ Even though it's possible to add custom sidebars and footers in subdirectories, 
 
 `![Learn!](https://github.com/beejjorgensen/wiki-test/blob/master/wiki-images/learn-goddammit.jpg)`
 
+## Home page
+
+The page titled "Home" has special meaning as your root page. Things work better if you don't rename "Home".
+
+
 ## References
 
 [GitHub wiki help](https://help.github.com/articles/about-github-wikis/)
