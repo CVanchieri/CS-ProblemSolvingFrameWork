@@ -10,7 +10,7 @@ while (number < 0) {
 
 This looks really weird (*WHY* would they do this??!!), but what's actually happening is a little bit simpler.
 
-Deep down, the computer represents numbers as bits in sequential bytes. Using something called _[2's complement](https://en.wikipedia.org/wiki/Two%27s_complement)_ representation, signed numbers are stored like so (using a 4-bit number for the sake of example simplicity--but it could be 64-bits, or whatever):
+Deep down, the computer represents numbers as bits in sequential bytes. Using something called _[2's complement](https://en.wikipedia.org/wiki/Two%27s_complement)_ representation, signed numbers are stored like so (using a 4-bit number for the sake of example simplicity--but it could be 64 bits, or whatever):
 
 Signed:
 
