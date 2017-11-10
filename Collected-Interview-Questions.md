@@ -27,18 +27,18 @@ Problems that are composed of identical independent subproblems are good candida
 
 ## Object oriented design
 
-https://en.wikipedia.org/wiki/Object-oriented_design
+* https://en.wikipedia.org/wiki/Object-oriented_design
 
 
 ## Design patterns (singleton, factory)
 
-https://en.wikipedia.org/wiki/Singleton_pattern
-https://en.wikipedia.org/wiki/Factory_(object-oriented_programming)
+* https://en.wikipedia.org/wiki/Singleton_pattern
+* https://en.wikipedia.org/wiki/Factory_(object-oriented_programming)
 
 
 ## S.O.L.I.D. principles
 
-https://en.wikipedia.org/wiki/SOLID_(object-oriented_design)
+* https://en.wikipedia.org/wiki/SOLID_(object-oriented_design)
 
 ## Data Structures, Algorithms
 
