@@ -1,6 +1,6 @@
 Someone had asked earlier if assigning from signed to unsigned just took the absolute value. The answer, generally speaking, is, "no, it does weird things".
 
-In C, C++, and Go, converting from signed to unsigned basically does the following, according to spec:
+In C, C++, and Go (and probably a pile of other languages), converting from signed to unsigned basically does the following, according to spec:
 
 ```c
 while (number < 0) {
