@@ -1,5 +1,3 @@
-# Beej's GitHub Wiki HOWTO
-
 ## Questions
 
 * Does this actually work well with our workflow?
