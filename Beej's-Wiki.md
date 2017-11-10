@@ -1,3 +1,3 @@
-[[Beej's GitHub Wiki HowTo|GitHub Wiki HowTo]]
+[[Beej's GitHub Wiki HowTo]]
 
-[[Collected interview questions|Interview Questions]]
+[[Collected Interview Questions]]
