@@ -49,7 +49,7 @@ And that's why `a.slice` is valid even though `a` doesn't have its own `slice` p
 
 ## Question 2
 
-**I get that `Array.prototype.slice.call(obj);` is used to convert an array-like object into an array, but i'm not getting the function of `Array`, `prototype`, `call`. I know that `call` changes what `this` refers to.... but not getting it.**
+**I get that `Array.prototype.slice.call(obj);` is used to convert an array-like object into an array, but I'm not getting the function of `Array`, `prototype`, `call`. I know that `call` changes what `this` refers to, but...**
 
 Be sure you understand the answer to Question 1 before tackling this one.
 
