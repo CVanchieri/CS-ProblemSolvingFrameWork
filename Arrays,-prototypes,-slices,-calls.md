@@ -117,5 +117,8 @@ function Bar() {
 
 Bar();  // Prints "false", "undefined". There is no slice.
 ```
+When you call `Array.prototype.slice(arguments)`, then `arguments` becomes `this` inside the `slice()` function. It's just like if you'd called `arguments.slice()`, (but we can't do that because arguments isn't an `Array`).
+
+And `arguments` despite not being a real `Array` still has enough Array-like functionality to be treated like one in general and also by the `slice()` function.
 
 Hope that helps!
