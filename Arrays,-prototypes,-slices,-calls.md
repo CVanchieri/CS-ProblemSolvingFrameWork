@@ -107,7 +107,7 @@ See how `printThis` is on `Foo`'s `prototype`? We can call it from there with `c
 
 So why can't we just `arguments.slice()`? Why do we have to `Array.prototype.slice.call(arguments)`?
 
-The answer is that `arguments` is just an array-like, it's not an `Array`. So its prototype is not `Array.prototype` (which is where `slice` lives) It's prototype is something else, and therefore it has no `slice` anywhere.
+The answer is that `arguments` is just an array-like, it's not an `Array`. So its prototype is not `Array.prototype` (which is where `slice` lives). Its prototype is something else, and it has no `slice` anywhere.
 
 ```javascript
 function Bar() {
