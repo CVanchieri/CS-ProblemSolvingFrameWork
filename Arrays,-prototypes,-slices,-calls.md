@@ -46,6 +46,8 @@ So JS looks there, and that's where it finds `slice`.
 
 And that's why `a.slice` is valid even though `a` doesn't have its own `slice` property.
 
+If that's still a bit mysterious, [check out my blog on prototypal inheritance](http://beej.us/blog/data/javascript-prototypes-inheritance/) in JavaScript.
+
 
 ## Question 2
 
