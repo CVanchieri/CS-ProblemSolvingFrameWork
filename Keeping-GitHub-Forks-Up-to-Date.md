@@ -20,7 +20,6 @@ When we bring our `origin` into sync with the `upstream`, there are two possible
 
 2. You fetch the commits from `upstream` into your `local` repo, merge them, and then push the result to your `origin`. **This is almost always the way it happens**.
 
-![Syncing the fork repo](https://github.com/LambdaSchool/BeejWiki/blob/master/wiki-images/repo-fork-sync.svg)
 
 ## References
 
