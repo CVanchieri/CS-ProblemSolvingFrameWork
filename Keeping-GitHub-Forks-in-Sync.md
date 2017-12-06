@@ -116,13 +116,11 @@ This is the _interesting_ part since it's the only place you can get into troubl
 
 If you don't see anything about conflicts on the merge output, you're good to go. Otherwise [resolve them](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging) before proceeding to the next step.
 
-LS Instructor Aaron Gallant adds:
-
-> I'll throw in my favorite [gitconfig alias](https://git-scm.com/docs/git-config), I set it as `git up`:
+A useful [gitconfig alias](https://git-scm.com/docs/git-config), `git up`:
 >    
 >    `up = "!git remote update -p; git merge --ff-only `[`@{u}`](https://git-scm.com/docs/gitrevisions)`"`
->
-> Using this lets me more or less forget how to properly use `git pull`--doesn't save you from `git merge` if you're on a different branch, but helps for master/any collaborative branch.
+
+Using this lets you more or less forget how to properly use `git pull` -- you still have to `git merge` if you're on a different branch, but can just do `git up` for master/any collaborative branch where there are commits from others.
 
 ### Push to your `origin`
 
