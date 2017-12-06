@@ -61,13 +61,25 @@ Note that we used the HTTPS URL for the original repo for `upstream`. This is be
 
 As shown in the diagram up above, we're going to grab commits from `upstream`, merge them into our `local`, and then push them to our `origin`. After that, all repos should be in sync.
 
-### `git fetch`
+**The following assumes you're merging the `origin`'s `master` branch with your `master` branch. If you're merging other branches, you'll have to adjust the following instructions to suit.**
 
-`git fetch` is like `git pull`, except it doesn't merge. It goes and grabs all the updates from the named remote and puts them in your local repo, but doesn't update anything in your working directory. The commits are just sitting there in git's database.
+### Fetching new commits from `upstream`
+
+`git fetch` is like `git pull`, except it doesn't merge. It goes and grabs all the new commits from the named remote and puts them in your local repo, but doesn't update anything in your working directory. The commits are just sitting there in git's local database.
 
 > Fun fact: `git pull` is shorthand for `git fetch` followed by `git merge`.
 
-**The following assumes you're merging the `origin`'s `master` branch with your `master` branch. If you're merging other branches, you'll have to adjust the following instructions to suit.**
+
+Fetch the new commits from the original repo, `upstream`, like so:
+
+```bash
+$ get fetch upstream
+[...fetch output...]
+```
+
+### Merging your `master` with `upstream/master`
+
+Now you have all the new commits from `upstream`, but you have to merge them with all the changes you've been making.
 
 First, make sure you've fully committed your stuff:
 
@@ -78,15 +90,48 @@ Your branch is up-to-date with 'origin/master'.
 nothing to commit, working tree clean
 ```
 
-If it says you have changes that are staged (or not staged), make a commit before proceeding. (Or learn how to use `[git stash](https://git-scm.com/book/en/v1/Git-Tools-Stashing)`.)
+If it says you have changes that are staged (or not staged), make a commit before proceeding. (Or learn how to use [`git stash`](https://git-scm.com/book/en/v1/Git-Tools-Stashing).)
 
-Second, fetch the new commits from the original repo, `upstream`:
+Second, make sure you're on your local `master` branch (the branch with the `*` next to it is the current):
 
 ```bash
-$ get fetch upstream
-[...fetch output...]
+$ git checkout master
+
+$ git branch
+* master
 ```
+
+You need to be on your `master` branch because that's the one you're _merging into_.
+
+Third, merge! In the following example, `upstream/master` refers to the `master` branch on the `upstream` remote. (As opposed to `master` on your local.)
+
+```bash
+$ git merge upstream/master
+[...merge output...]
+```
+
+Note that the above will most likely ask you to create a message for this commit. Just say you merged or whatever you wish. (If it does a [fast-forward merge](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging), it won't ask for a commit message.)
+
+This is the _interesting_ part since it's the only place you can get into trouble with merging. Unfortunately, [how to deal with merge conflicts](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging) is beyond the scope of this tutorial, but it's not the end of the world if you have to do it.
+
+If you don't see anything about conflicts on the merge output, you're good to go. Otherwise [resolve them](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging) before proceeding to the next step.
+
+
+### Push to your `origin`
+
+After fetching and merging, the `upstream` and your `local` are in sync. To get your `origin` in sync as well, just push to it:
+
+```bash
+$ git push
+[...push output...]
+```
+
+And then you should be in sync!
 
 ## References
 
-* https://help.github.com/articles/syncing-a-fork/
+* [GitHub help on syncing a fork](https://help.github.com/articles/syncing-a-fork/)
+* [GitHub help on setting a remote](https://help.github.com/articles/configuring-a-remote-for-a-fork/)
+* [Perpetual GitHub feature request to get this in their UI](https://github.com/isaacs/github/issues/121)
+* [Resolving merge conflicts](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)
+* [`git stash`](https://git-scm.com/book/en/v1/Git-Tools-Stashing)
