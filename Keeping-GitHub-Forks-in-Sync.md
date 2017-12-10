@@ -24,7 +24,7 @@ When we bring our `origin` into sync with the `upstream`, there are two possible
 
 ## What is `upstream`?
 
-**This is important one-time setup! Once you set the `upstream`, you don't need to do it again for this repo!**`
+**This is important one-time setup! Once you set the `upstream`, you don't need to do it again for this repo!**
 
 `upstream` is what we call a _remote_ in git. It's a nice human-readable name for a repo URL. You could use the full URL every time you wanted to refer to a repo, but that's a pain, so we make these aliases.
 
