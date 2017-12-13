@@ -1,10 +1,4 @@
-## Questions
-
-* Does this actually work well with our workflow?
-* How does it mesh into the `README.md`'s we have in the assignment/code skeleton repos?
-* Is it easier to use and maintain than Google Docs?
-
-## Good Stuff
+## Code
 
 Syntax highlighting:
 
@@ -21,14 +15,6 @@ Pages written in markdown.
 
 Can clone the wiki and edit markdown in the editor of your choice.
 
-## Bad stuff
-
-A little clunky on searching; see below.
-
-Can't make subdirs from within the UI; need to clone and do it from the command line.
-
-Inserting images not as smooth as in the main repo markdown files.
-
 ## Searching
 
 ### By Page Title
@@ -39,15 +25,15 @@ Type in the "Pages" bar on the right to search by page title.
 
 Enter the search text in the top-of-page search bar. On the results page, click the "Wikis" subtab.
 
-This link gets you to the Wikis subtab directly, after which you have to type a search term up top: https://github.com/beejjorgensen/wiki-test/search?type=Wikis&utf8=%E2%9C%93
+This link gets you to the Wikis subtab directly, after which you have to type a search term up top: https://github.com/LambdaSchool/CS-Wiki/search?utf8=%E2%9C%93&q=&type=Wikis
 
 ## Cloning the Wiki Repo
 
 1. Go back to the main repo page (the `<> Code` tab).
 2. Copy the clone ssh URL
-3. Add the word `.wiki` just before the `.git`, like so: `git@github.com:beejjorgensen/wiki-test.wiki.git`
+3. Add the word `.wiki` just before the `.git`, like so: `git@github.com:LambdaSchool/CS-Wiki.wiki.git`
 
-## Subdirectories in the Repo
+### Subdirectories in the Repo
 
 Although the wiki displays as flat, you can have subdirectories. However, you must make them from the command line in a clone of the wiki.
 
@@ -57,9 +43,11 @@ Even though it's possible to add custom sidebars and footers in subdirectories, 
 
 [Adding Images to Wikis](https://help.github.com/articles/adding-images-to-wikis/) (GitHub help)
 
-![Are you sure about that?](https://github.com/LambdaSchool/BeejWiki/blob/master/wiki-images/cypher-disbelief.jpg)
+![Are you sure about that?](https://github.com/LambdaSchool/CS-Wiki/blob/master/wiki-images/cypher-disbelief.jpg)
 
-`![Are you sure about that?](https://github.com/LambdaSchool/BeejWiki/blob/master/wiki-images/cypher-disbelief.jpg)`
+`![Are you sure about that?](https://github.com/LambdaSchool/CS-Wiki/blob/master/wiki-images/cypher-disbelief.jpg)`
+
+There's a general-purpose [`wiki-images` subdirectory](https://github.com/LambdaSchool/CS-Wiki/tree/master/wiki-images) in the repo that can be used as an image dump.
 
 ## Home page
 
