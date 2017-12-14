@@ -1,3 +1,5 @@
+Optional reading for your spare time...
+
 ## Algorithms
 
 * [Algorithms in a Nutshell](http://shop.oreilly.com/product/9780596516246.do)
