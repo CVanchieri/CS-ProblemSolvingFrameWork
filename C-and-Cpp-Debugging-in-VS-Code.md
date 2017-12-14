@@ -4,7 +4,7 @@ First, go to the extensions panel in VS Code and search for `C/C++`. Choose the 
 
 Install that extension and restart VSC.
 
-[Here is an example project](https://github.com/LambdaSchool/BeejWiki/tree/master/vscdebugc).
+[Here is an example project](https://github.com/LambdaSchool/CS-Wiki/tree/master/vscdebugc).
 
 
 ## Building the Project in VSC
