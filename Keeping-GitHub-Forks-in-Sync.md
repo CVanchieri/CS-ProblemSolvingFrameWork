@@ -73,7 +73,7 @@ As shown in the diagram up above, we're going to grab commits from `upstream`, m
 Fetch the new commits from the original repo, `upstream`, like so:
 
 ```bash
-$ get fetch upstream
+$ git fetch upstream
 [...fetch output...]
 ```
 
