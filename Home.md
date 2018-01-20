@@ -14,4 +14,5 @@ Everything can be found on the Pages tab to the right.
 
 * [[GitHub Wiki HowTo]]
 * [[Collected Interview Questions]]
+* [[On Remote Work]]
 
