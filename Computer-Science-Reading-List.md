@@ -34,3 +34,7 @@ Optional reading for your spare time...
 ## Software Development Methodologies
 
 * [Scrum](https://en.wikipedia.org/wiki/Scrum_(software_development)) (Wikipedia)
+
+## DevOps
+
+* [Site Reliability Engineering (Google)](https://landing.google.com/sre/book.html)
