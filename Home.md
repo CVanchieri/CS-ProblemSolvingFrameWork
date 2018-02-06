@@ -9,6 +9,7 @@ Everything can be found on the Pages tab to the right.
 * [[C and Cpp Debugging in VS Code]]
 * [[Casting Signed to Unsigned in C]]
 * [[Keeping GitHub Forks in Sync]]
+* [[Getting Your C Compiler Installed]]
 
 ## Other Lore
 
