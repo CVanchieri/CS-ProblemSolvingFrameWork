@@ -46,7 +46,17 @@ Requires Windows 10.
 * Run bash from the command prompt or start menu.
 * Run `sudo apt install build-essential` to install GCC.
 
-#### WSL Usage and Notes
+#### Drive Access
+
+* To get to your Windows drive from Bash, type `cd /mnt/c/Users/YourUserName`.
+* There is no supported way to access your WSL drive from Windows command prompt. [Don't do it](https://blogs.msdn.microsoft.com/commandline/2016/11/17/do-not-change-linux-files-using-windows-apps-and-tools/).
+
+#### VSCode and WSL
+
+* Keep your program files on your Windows drive.
+* Run VSCode as normal.
+* You can bring up a bash shell then switch to your Windows drive, as outlined above. Then run `gcc` or whatever you need to.
+* Unrelated to C programming, VSCode has some integrated WSL support for running the node debugger. See [launching WSL node from the VSCode debugger](https://code.visualstudio.com/updates/v1_17#_first-steps-towards-wsl-support).
 
 ### Cygwin
 
@@ -65,7 +75,13 @@ Requires Windows 10.
 * To get to your Windows drive from Bash, type `cd /cygdrive/c/Users/YourUserName` or `cd c:/Users/YourUserName`.
 * To get to your Cygwin drive from Windows command prompt, type `cd c:\cygwin\home\youruser`.
 
-#### Cygwin Notes
+#### VSCode and Cygwin
+
+* Keep your files either on your Windows drive or Cygwin drive. Access them as per above.
+* Run VSCode as normal.
+* Run `gcc` from the Cygwin Terminal bash shell.
+
+#### Cygwin Pitfalls
 
 * If you have MinGW also installed, make sure that the Cygwin binaries are first in your `PATH`. If not, it will run the wrong GCC on the command line and you'll receive an error about `WinMain` not being found.
 
