@@ -43,6 +43,7 @@ This basically gives you a mini Linux install. Ubuntu is recommended, but not re
 Requires Windows 10.
 
 * [Install WSL](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
+  * Alternate install: Open VSCode, bring up the integrated terminal (CTRL-\`), and type `bash`. Follow the install instructions.
 * Run bash from the command prompt or start menu.
 * Run `sudo apt install build-essential` to install GCC.
 
@@ -52,7 +53,7 @@ Requires Windows 10.
   ```
   cd /mnt/c/Users/YourUserName
   ```
-* There is no supported way to access your WSL drive from Windows command prompt. [Don't do it](https://blogs.msdn.microsoft.com/commandline/2016/11/17/do-not-change-linux-files-using-windows-apps-and-tools/).
+* There is no supported way to access your WSL drive from Windows command prompt. _[Don't do it](https://blogs.msdn.microsoft.com/commandline/2016/11/17/do-not-change-linux-files-using-windows-apps-and-tools/)_.
 
 #### VSCode and WSL
 
