@@ -10,6 +10,7 @@ Everything can be found on the Pages tab to the right.
 * [[Casting Signed to Unsigned in C]]
 * [[Keeping GitHub Forks in Sync]]
 * [[Getting Your C Compiler Installed]]
+* [[Why Learn Computer Science?]]
 
 ## Other Lore
 
