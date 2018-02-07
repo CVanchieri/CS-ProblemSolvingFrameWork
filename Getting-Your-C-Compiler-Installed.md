@@ -10,7 +10,7 @@ Instructions and pitfalls in getting your C compiler installed.
 To build your C program from the command line (Bash shell or Terminal):
 
 ```
-gcc -Wall -Wextra -o myprog myprog.c
+gcc -Wall -Wextra -o hello hello.c
 ```
 
 ## macos
