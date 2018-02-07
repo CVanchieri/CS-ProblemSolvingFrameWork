@@ -48,7 +48,10 @@ Requires Windows 10.
 
 #### Drive Access
 
-* To get to your Windows drive from Bash, type `cd /mnt/c/Users/YourUserName`.
+* To get to your Windows drive from Bash, type:
+  ```
+  cd /mnt/c/Users/YourUserName
+  ```
 * There is no supported way to access your WSL drive from Windows command prompt. [Don't do it](https://blogs.msdn.microsoft.com/commandline/2016/11/17/do-not-change-linux-files-using-windows-apps-and-tools/).
 
 #### VSCode and WSL
@@ -72,8 +75,19 @@ Requires Windows 10.
 
 #### Drive Access
 
-* To get to your Windows drive from Bash, type `cd /cygdrive/c/Users/YourUserName` or `cd c:/Users/YourUserName`.
-* To get to your Cygwin drive from Windows command prompt, type `cd c:\cygwin\home\youruser`.
+* To get to your Windows drive from Bash, type:
+  ```
+  cd /cygdrive/c/Users/YourUserName
+  ```
+  or 
+  ```
+  cd c:/Users/YourUserName
+  ```
+
+* To get to your Cygwin drive from Windows command prompt, type:
+  ```
+  cd c:\cygwin\home\youruser
+  ```
 
 #### VSCode and Cygwin
 
