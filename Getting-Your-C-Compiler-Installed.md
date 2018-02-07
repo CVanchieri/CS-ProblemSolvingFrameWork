@@ -45,6 +45,8 @@ Requires Windows 10.
 * Run bash from the command prompt or start menu.
 * Run `sudo apt install build-essential` to install GCC.
 
+#### WSL Usage and Notes
+
 ### Cygwin
 
 [Cygwin](https://cygwin.com/) is a library compatibility layer for building and running Linux apps.
@@ -56,6 +58,15 @@ Requires Windows 10.
   setup-x86_64.exe -q -P wget -P gcc-g++ -P make -P diffutils -P libmpfr-devel -P libgmp-devel -P libmpc-devel
   ```
 * Launch Cygwin-Terminal from its icon.
+
+#### Drive Access
+
+* To get to your Windows drive from Bash, type `cd /cygdrive/c/Users/YourUserName` or `cd c:/Users/YourUserName`.
+* To get to your Cygwin drive from Windows command prompt, type `cd c:\cygwin\home\youruser`.
+
+#### Cygwin Notes
+
+* If you have MinGW also installed, make sure that the Cygwin binaries are first in your `PATH`. If not, it will run the wrong GCC on the command line and you'll receive an error about `WinMain` not being found.
 
 ### MinGW
 
