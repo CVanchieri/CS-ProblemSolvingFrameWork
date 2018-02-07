@@ -32,7 +32,8 @@ If you're going to install XCode anyway for some other reason, you can use these
 
 ## Windows
 
-The two options for 
+The two options for Windows that we know of for building the Unix-like code we play with at Lambda School are WSL and Cygwin. MinGW is too minimalist for our use.
+
 ### WSL
 
 The [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/about) is an officially-supported binary compatibility layer for Linux apps running on Windows.
