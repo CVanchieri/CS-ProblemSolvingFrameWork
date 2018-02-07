@@ -43,7 +43,7 @@ This basically gives you a mini Linux install. Ubuntu is recommended, but not re
 Requires Windows 10.
 
 * [Install WSL](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
-  * Alternate install: Open VSCode, bring up the integrated terminal (CTRL-\`), and type `bash`. Follow the install instructions.
+  * [Check your build number](https://docs.microsoft.com/en-us/windows/wsl/troubleshooting#check-your-build-number). If it is pre-16215, you'll need to turn on developer mode, as per the above instructions.
 * Run bash from the command prompt or start menu.
 * Run `sudo apt install build-essential` to install GCC.
 
