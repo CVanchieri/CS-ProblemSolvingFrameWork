@@ -1,10 +1,10 @@
-# WORK IN PROGRESS
-
 After working on React and practical stuff, getting to be better JS devs, we suddenly plunge into a breadth of all kinds of computer science-y topics. At first, these might seemingly be unrelated to anything that you might use in the field.
 
 So _why_ do we teach it?
 
 > Although the entire program at Lambda School is called _The CS Program_, six weeks of the program is dedicated to [Computer Science](https://en.wikipedia.org/wiki/Computer_science) topics. That is what this article is about.
+
+This article is a more complete version of the information given in [this short video](https://youtu.be/3WoJ5MSZBJ4).
 
 ## Why We Teach Computer Science
 
@@ -72,22 +72,36 @@ Also, it can impair your ability to effectively utilize the computer. If you don
 
 Learning about computer architecture aims to help with these issues. The machine is pretty simple deep down, and once that is laid bare, you'll be more comfortable working with it at any level.
 
+### Learn State Machines and Regular Expressions
+
+A state machine is one of the most basic models of computation. A process exists in a certain state, and different inputs cause it to move to different states. When it arrives at a particular state, it can perform some action, and wait to move to another state.
+
+Many things in CS are modeled as state machines. (And indeed virtually all computational processes you will encounter can be represented by state machines.) NPCs in video games often exist in states. For example, a guard at a door might be in `GUARDING` state until it detects the player, at which point it switches to `CHASE` state.
+
+Sometimes, especially for multi-stage processes in which you don't know which step will be taken next until it happens, a state machine is a useful way of modeling that process.
+
+> Just about everything you do in dev will be a state machine, but the language usually abstracts the gritty details away from you behind functions, loops, and other constructs you have at your disposal.
+
+In what might be a surprise, state machines are closely related to [_regular expressions_](https://en.wikipedia.org/wiki/Regular_expression). These are extremely commonly used to match patterns in strings, and are doubly common in JavaScript.
+
+### Learn Algorithms, Data Structures, and Time Complexity
+
+Knowing what algorithm to implement (or use from a library) can have great impacts on the time it takes for a process you implement to complete. A not-uncommon task at work is to take a job that completes in 5 minutes, and change it to complete in 10 seconds. 
+
+Knowing how to analyze an algorithm can help you figure out what about the process is taking so long to complete.
+
+And knowing the right algorithmic or data structure tool for the job can help you implement the right thing to get the runtime down.
+
+Time complexity also helps you to _not_ overengineer a solution. If you know the difference between _O(n^2)_ and _O(n)_, that's really useful. And if you know that _n_ will never be more than 3, you'll know you might be OK with the easier _O(n^2)_ solution.
+
 ## How to Learn Computer Science
 
-Get out what you put in
+*WORK IN PROGRESS*
 
-Big playground
+### It's A Big Playground
 
-Enjoy the problem solving aspect.
+### You'll Get Out What You Put In
 
+### Enjoy Solving Problems
 
----
-
-
-Algorithms: choose right algorithm that gets the proper performance. Biz might have a long-running process and you need to choose another algorithm. Right tool for the job. Even if you don't implement them yourself, it's useful to know which tools to use from the lib.
-
-State machines: lots of games use state machines, diagramming. Data moves from state to state all the time. Tie in to regular expressions.
-
-From video
-
-https://youtu.be/3WoJ5MSZBJ4
+### Never Stop Learning
