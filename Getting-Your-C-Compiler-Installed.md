@@ -13,6 +13,18 @@ To build your C program from the command line (Bash shell or Terminal):
 gcc -Wall -Wextra -o hello hello.c
 ```
 
+## General Pitfalls
+
+* If you accidentally tell `gcc` to overwrite your `.c` file with the `-o` (output) flag, you'll get errors. And your source code will be overwritten!
+
+    ```
+    # WRONG!!
+    gcc -Wall -Wextra -o foo.c foo
+
+    # RIGHT!!
+    gcc -Wall -Wextra -o foo foo.c
+    ```
+
 ## macos
 
 ### Option A: Command Line Tools
@@ -99,6 +111,8 @@ Requires Windows 10.
 #### Cygwin Pitfalls
 
 * If you have MinGW also installed, make sure that the Cygwin binaries are first in your `PATH`. If not, it will run the wrong GCC on the command line and you'll receive an error about `WinMain` not being found.
+
+* Another way to get an error about `WinMain` not being found is if you accidentally specify your source `.c` program as the _output_ file with `-o`. See [General Pitfalls](#general-pitfalls), above.
 
 ### MinGW
 
