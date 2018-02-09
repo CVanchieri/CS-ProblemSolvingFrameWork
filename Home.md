@@ -11,6 +11,7 @@ Everything can be found on the Pages tab to the right.
 * [[Keeping GitHub Forks in Sync]]
 * [[Getting Your C Compiler Installed]]
 * [[Why Learn Computer Science?]]
+* [[How to Google Effectively]]
 
 ## Other Lore
 
