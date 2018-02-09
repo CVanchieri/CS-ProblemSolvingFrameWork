@@ -96,12 +96,44 @@ Time complexity also helps you to _not_ overengineer a solution. If you know the
 
 ## How to Learn Computer Science
 
-*WORK IN PROGRESS*
-
 ### It's A Big Playground
+
+There is a _lot_ to learn in Computer Science. You can't learn it all since field knowledge is being created faster than any one person can learn it; for all intents and purposes, the amount of knowledge you stand to gain is infinite.
+
+But you shouldn't find this to be a daunting task because you get to pick and choose from this larger-than-life selection what it is you want to study next. And you will never run out of options.
+
+Choose things that look interesting, pursue them, and see where they lead. You'll find a lot of connections to a lot of topics that lead a lot of places.
+
+And if you ever feel lost in the infinite ocean of topics out there, remember that you've learned to swim. Pick any subject, read up on it, and implement it. You'll soon find yourself feeling on track.
 
 ### You'll Get Out What You Put In
 
+There are some subjects where you need to learn a vast collection of facts and then apply them in a systematic way. Although that statement sounds _computer-y_ on the surface, it does not reflect working in the computer field in the least.
+
+A lot of people new to programming are somewhat surprised to find that software development is a very creative process, and a lot of thought goes into how to design and write your code.
+
+In order to be proficient, you'll need to think beyond the facts presented to you by instructors, books, and tutorials, and learn how to creatively put these pieces together into the software that you're trying to build.
+
+To get good at this, like with everything else, you need practice. If there are stretch goals for the project, implement them if you have time. If you think of alternate stretch goals, talk to the instructor and they'll certainly support you in those goals instead.
+
+Just listening to instruction isn't enough. The more you code, the better you will be.
+
 ### Enjoy Solving Problems
 
+Lots of times problem solving might seem like a drag. You might have been hoping for just an easy day at work, but these problems to solve keep coming your way!
+
+It's a subtle change of perspective, but work to convince yourself that a problem to be solved presents an interesting and unique challenge. This might take some forcing at first.
+
+But the secret is this: the more problems you solve, the easier problems become to solve. This is especially true if you remain in the same subfield for a while and build up a massive collection of domain knowledge. 
+
 ### Never Stop Learning
+
+Because the field moves fast, you have to keep you chops sharp. This means practicing programming and problem solving, but it also means to keep on top of the latest and greatest things that come out.
+
+This can be a challenge in web dev where a new test platform or framework is invented every week. Some of these are worth exploring; others aren't. There's a bit of a skill to waiting until something graduates from the bleeding edge before deciding it's worth looking into. There simply isn't enough time in the day to keep up with them all. Most of the new frameworks wither on the vine, but a few spring bigger than life.
+
+But even the ones that don't make it might have interesting, alternative approaches to a certain set of problems that are worth adding to your arsenal.
+
+It can be useful to get a newsreader and follow feeds on your favorite sites (reddit, or whichever). Just skimming the headlines gets you an idea of what's new and exciting. You can always read more if it's enticing.
+
+Remember: it's a big computing world out there, yours to pursue as you choose!
