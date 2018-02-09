@@ -2,7 +2,7 @@ Being an effective dev means being able to quickly get help finding solutions. B
 
 Though those techniques still have their place and time, they have been superseded by the much faster and more effective Internet search engine.
 
-But not being able to craft an effective search will hold you back against your peer who can. In this article, we'll look at some techniques for getting the results you want in the minimum amount of time.
+But not being able to craft an effective search will hold you back against your peers who can. In this article, we'll look at some techniques for getting the results you want in the minimum amount of time.
 
 ## General Search Advice
 
