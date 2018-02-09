@@ -25,6 +25,8 @@ gcc -Wall -Wextra -o hello hello.c
     gcc -Wall -Wextra -o foo foo.c
     ```
 
+* If you're on Windows and get errors about `WinMain`, make sure you have a `main()` function in your code! There are also other reasons you might see this error. Read on, below.
+
 ## macos
 
 ### Option A: Command Line Tools
