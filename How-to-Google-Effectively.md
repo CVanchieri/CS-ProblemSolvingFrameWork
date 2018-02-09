@@ -51,3 +51,4 @@ which sites are searched, date ranges, file types, and licenses.
 * Restrict dates to recent: click *Tools* then *Any Time*, you can select a maximum age for the results.
   * If you're getting a lot of outdated results from 15 years ago, this might help.
 
+* Restrict to a specific site: use `site:` in front of the domain: `react site:stackoverflow.com`.
