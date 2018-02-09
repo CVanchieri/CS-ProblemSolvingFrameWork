@@ -42,7 +42,7 @@ Google has all kinds of features you might not be aware of to help improve your 
 
 * Mandatory non-terms: if you have something that you deliberate want left out of a match, you can preface them with a minus sign, e.g. `react -nuclear`.
 
-* Verbatim matching: if you click *Tools*, then *All Results* and select *Verbatim, Google will match pages with exactly the terms you specify.
+* Verbatim matching: if you click *Tools*, then *All Results* and select *Verbatim*, Google will match pages with exactly the terms you specify.
   * If Google is incorrectly second-guessing what you meant, this feature might help.
 
 * Advanced search: under *Settings*, then *Advanced Search*, you can set all kinds of parameters including
