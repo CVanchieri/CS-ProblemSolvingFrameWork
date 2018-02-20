@@ -10,7 +10,7 @@ Roughly, there are three types of remote employers:
 
 * Remote first: there is one or more offices, but the majority of employees are remote and all important things are done in a way compatible with that (you don't miss "water cooler" chat). Lambda School is a good example - we have an office, but all instructors are remote (of course so are all of the students), and Slack is really the "water cooler."
 
-* Remote friendly: this is most common, you may also see "remote for the right person" in the job listing. Usually it means it's an older and/or larger company "experimenting" with remote, and that you *will* be at a disadvantage relative to others due to the "water cooler" effect. It can still be a reasonable gig, but is pretty obviously the least appealing of the three.
+* Remote friendly: this is most common, you may also see "remote for the right person" in the job listing. Usually it means it's an older and/or larger company "experimenting" with remote, and that you *will* be at a disadvantage relative to others due to the "water cooler" effect. It can still be a reasonable gig, but is pretty obviously the least appealing of the three. Pressure to come in to the home office is likely to be more substantial.
 
 It's important to figure out what sort of remote employer they are--if it's not obvious from the listing, ask during screening (not directly of course, just ask questions about the above issues like "What are the travel expectations?" and "How do remote employees participate in the company culture?"). Done properly this both gives you information and shows interest in their culture.
 
