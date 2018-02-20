@@ -8,7 +8,7 @@ Roughly, there are three types of remote employers:
 
 * Remote only: these companies literally have no office, and are often fully globally distributed. Because of this, they often have semi-frequent meetups where they all travel to (sometimes glamorous) locations--a good example is GitLab, which makes a big deal about taking all its employees to places like Tahiti and such. Depending on your preferences and lifestyle, this may or may not be a perk, but it is likely an important part of the culture at such places.
 
-* Remote first: there is one or more offices, but the majority of employees are remote and all important things are done in a way friendly to that (you don't miss "water cooler" chat). Lambda School is a good example - we have an office, but all instructors are remote (of course so are all of the students), and Slack is really the "water cooler."
+* Remote first: there is one or more offices, but the majority of employees are remote and all important things are done in a way compatible with that (you don't miss "water cooler" chat). Lambda School is a good example - we have an office, but all instructors are remote (of course so are all of the students), and Slack is really the "water cooler."
 
 * Remote friendly: this is most common, you may also see "remote for the right person" in the job listing. Usually it means it's an older and/or larger company "experimenting" with remote, and that you *will* be at a disadvantage relative to others due to the "water cooler" effect. It can still be a reasonable gig, but is pretty obviously the least appealing of the three.
 
