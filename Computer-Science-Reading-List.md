@@ -1,10 +1,11 @@
 Optional reading for your spare time...
 
-## Algorithms
+## Algorithms and Data Structures
 
 * [Algorithms in a Nutshell](http://shop.oreilly.com/product/9780596516246.do)
 * [Hacker's Delight](http://www.hackersdelight.org/)
 * [Introduction to Algorithms](https://mitpress.mit.edu/books/introduction-algorithms) (Cormen et al)
+* [Foundations of Computer Science](http://i.stanford.edu/~ullman/focs.html)
 
 ## Architecture
 
