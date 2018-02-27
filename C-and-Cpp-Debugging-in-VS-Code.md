@@ -1,6 +1,7 @@
 ## Prerequisites
+First, [install your compiler.](https://github.com/LambdaSchool/CS-Wiki/wiki/Getting-Your-C-Compiler-Installed)
 
-First, go to the extensions panel in VS Code and search for `C/C++`. Choose the extension by Microsoft (ms-vscode.cpptools).
+Then, go to the extensions panel in VS Code and search for `C/C++`. Choose the extension by Microsoft (ms-vscode.cpptools).
 
 Install that extension and restart VSC.
 
