@@ -10,6 +10,8 @@ Install that extension and restart VSC.
 
 ## Building the Project in VSC
 
+**Currently, this build process only works for MacOS and Linux.  It is unknown if it will work on Windows 10 with WSL.  See below for additional instructions on compiling in Windows 7 with Cygwin.  **
+
 What we want to be able to do is build the project with CTRL-SHIFT-B (or COMMAND-SHIFT-B).
 
 The `tasks.json` file controls which tasks VSC can run. The one we're interested in is the Default Build Task.
@@ -89,6 +91,50 @@ Here is a `tasks.json` file with a [`problemMatcher` for C/C++](https://code.vis
 ```
 
 `tasks.json` will be found in the `.vscode/` directory in the project workspace.
+
+### Compiling in Windows/Cygwin
+We need to complete a few more setup items to be able to compile using the Cygwin Bash terminal.  We will be able to build programs, but the above build shortcut and problem matcher will not work.  * Please let us know if you have found a workaround! 
+
+1. We need to install an additional package for Cygwin.  Open cmd.exe as an administrator (not the Cygwin terminal).
+2. Navigate to the directory where you saved the installer.
+3. Run the following command: `setup-x86_64.exe -q -P chere`
+    a. If this step is not performed, the bash terminal will crash on open in VS Code.
+4. Press `Ctrl + Shift + P` and type in `Open User Settings`.  Click on the result.  This will open a file called `User Settings`
+5. Add the following lines to your settings.  Note that items in this object are comma separated.
+    a. `"terminal.integrated.shell.windows": "C:\\cygwin64\\bin\\bash.exe"`
+    b. `"terminal.integrated.shellArgs.windows": ["/bin/xhere","/bin/bash"]`
+6. Verify that there are no errors indicated by squiggles, then save and close the file.
+
+These steps are necessary for each new project you work on:
+
+1. Open your project in VS Code.  If you don't have another one yet, use the project linked above to make sure this works.  
+2. Open a file with an `#include` statement at the top.  Open \vscdebugc\hello.c if you are using the example project.
+3. The lines with `#include` statements will have green squiggles underneath them.  Click on one, then click on the lightbulb that appears on the left side.
+4. Select `Edit "includePath" Settings`.  This will create and open a file called `c_cpp_properties.json`.
+5. Scroll to the `"Win32"` section.  Under `"includePath"` **AND** the `"path"` part of `"browse"`, add the following:
+`
+                "C:/cygwin64/lib/gcc/x86_64-pc-cygwin/6.4.0/include",
+                "C:/cygwin64/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/*",
+                "C:/cygwin64/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/tr1/",
+                "C:/cygwin64/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/tr2/",
+                "C:/cygwin64/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/bits/",
+                "C:/cygwin64/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/x86_64-pc-cygwin/",
+`
+6. Verify that this has worked by returning to `hello.c`.
+    a. The squiggles under any `#include`s should be gone.
+    b. Start to type `printf()`.  If Intellisense is working, the function should pop up.
+
+To compile and run your program, you cannot use the `Ctrl + Shift + B` shortcut.  Instead:
+1. Open the terminal (View -> Integrated Terminal).
+2. Navigate to the folder containing your project.
+    a. To get to your Windows directory from bash, type `cd cygdrive/c/Users/YourUserName`
+3. If there is a makefile set up, you can navigate to the location with that file and simply enter the command `make`.
+    a. In the demo, this is located in `/CS-Wiki/vscdebugc`
+4. Otherwise, enter `gcc -Wall -Wextra -o foo foo.c`
+    a. In the demo, this command would be `gcc -Wall -Wextra -o hello hello.c`.
+5. Other than a slight hitch in the terminal, it may appear that nothing has happened when compiling a small program.  If this is the first time compiling, foo.exe will appear in the Explorer.
+    a.  It can be useful to keep a window open so that you can easily see the last updated time and verify that the build completed.
+6. To run your new program, type `./foo.exe` in the terminal.
 
 
 ## Debugging the Project in VSC
