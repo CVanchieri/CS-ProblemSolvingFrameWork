@@ -95,15 +95,15 @@ Here is a `tasks.json` file with a [`problemMatcher` for C/C++](https://code.vis
 ### Compiling in Windows/Cygwin
 We need to complete a few more setup items to be able to compile using the Cygwin Bash terminal.  We will be able to build programs, but the above build shortcut and problem matcher will not work.  **Please let us know if you have found a workaround!**
 
-1. We need to install an additional package for Cygwin.  Open cmd.exe as an administrator (not the Cygwin terminal).
+1. We need to install two additional packages for Cygwin.  Open cmd.exe as an administrator (not the Cygwin terminal).
 2. Navigate to the directory where you saved the installer.
-3. Run the following command: `setup-x86_64.exe -q -P chere`.
+3. Run the following command: `setup-x86_64.exe -q -P chere -P gdb`.
     *  If this step is not performed, the bash terminal will crash on open in VS Code.
 4. Press `Ctrl + Shift + P` and type in `Open User Settings`.  Click on the result.  This will open a file called `User Settings`
 5. Add the following lines to your settings.  Note that items in this object are comma separated.
 
->                 "terminal.integrated.shell.windows": "C:\\cygwin64\\bin\\bash.exe",
->                 "terminal.integrated.shellArgs.windows": ["/bin/xhere","/bin/bash"]
+>             "terminal.integrated.shell.windows": "C:\\cygwin64\\bin\\bash.exe",
+>             "terminal.integrated.shellArgs.windows": ["/bin/xhere","/bin/bash"]
 
 6. Verify that there are no errors indicated by squiggles, then save and close the file.
 
@@ -115,12 +115,12 @@ These steps are necessary for each new project you work on:
 4. Select `Edit "includePath" Settings`.  This will create and open a file called `c_cpp_properties.json`.
 5. Scroll to the `"Win32"` section.  Under `"includePath"` **AND** the `"path"` part of `"browse"`, add the following:
 
->                 "C:/cygwin64/lib/gcc/x86_64-pc-cygwin/6.4.0/include",
->                 "C:/cygwin64/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/*",
->                 "C:/cygwin64/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/tr1/",
->                 "C:/cygwin64/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/tr2/",
->                 "C:/cygwin64/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/bits/",
->                 "C:/cygwin64/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/x86_64-pc-cygwin/",
+>             "C:/cygwin64/lib/gcc/x86_64-pc-cygwin/6.4.0/include",
+>             "C:/cygwin64/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/*",
+>             "C:/cygwin64/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/tr1/",
+>             "C:/cygwin64/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/tr2/",
+>             "C:/cygwin64/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/bits/",
+>             "C:/cygwin64/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/x86_64-pc-cygwin/",
 
 6. Verify that this has worked by returning to `hello.c`.
     * The squiggles under any `#include`s should be gone.
@@ -153,11 +153,12 @@ To set up debugging, perform the following steps:
 4. Choose C++
 5. It'll pop up an editor for `launch.json`. Edit the `name` to be something you like, e.g. "My Server"
 6. Change `program` to be the name of your binary from the build step, e.g. `"${workspaceFolder}/myserver"`
-7. If you are using `fork()`, it might be helpful to modify GDB's `detach-on-fork` setting to `off` in `setupCommands`.`text`, for example:
+7. Change `miDebuggerPath` to the location of gdb.exe.  This will be somewhere in your compiler folder.
+8. If you are using `fork()`, it might be helpful to modify GDB's `detach-on-fork` setting to `off` in `setupCommands`.`text`, for example:
 
     `"text": "-enable-pretty-printing -gdb-set detach-on-fork off",`
 
-8. Save `launch.json`.
+9. Save `launch.json`.
 
 Example `launch.json`:
 
@@ -180,6 +181,7 @@ Example `launch.json`:
       "environment": [],
       "externalConsole": true,
       "MIMode": "gdb",
+      "miDebuggerPath": "/path/to/gdb",
       "setupCommands": [
         {
           "description": "Enable pretty-printing for gdb and add better child debugging",
