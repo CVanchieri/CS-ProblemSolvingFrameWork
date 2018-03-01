@@ -10,7 +10,7 @@ Install that extension and restart VSC.
 
 ## Building the Project in VSC
 
-**Currently, this build process only works for MacOS and Linux.  It is unknown if it will work on Windows 10 with WSL.  See below for additional instructions on compiling in Windows 7 with Cygwin.  **
+_**Currently, this build process only works for MacOS and Linux.  It is unknown if it will work on Windows 10 with WSL.  See below for additional instructions on compiling in Windows 7 with Cygwin.**_
 
 What we want to be able to do is build the project with CTRL-SHIFT-B (or COMMAND-SHIFT-B).
 
@@ -93,7 +93,7 @@ Here is a `tasks.json` file with a [`problemMatcher` for C/C++](https://code.vis
 `tasks.json` will be found in the `.vscode/` directory in the project workspace.
 
 ### Compiling in Windows/Cygwin
-We need to complete a few more setup items to be able to compile using the Cygwin Bash terminal.  We will be able to build programs, but the above build shortcut and problem matcher will not work.  * Please let us know if you have found a workaround! 
+We need to complete a few more setup items to be able to compile using the Cygwin Bash terminal.  We will be able to build programs, but the above build shortcut and problem matcher will not work.  **Please let us know if you have found a workaround!**
 
 1. We need to install an additional package for Cygwin.  Open cmd.exe as an administrator (not the Cygwin terminal).
 2. Navigate to the directory where you saved the installer.
