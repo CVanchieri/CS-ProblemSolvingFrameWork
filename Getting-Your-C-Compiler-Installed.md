@@ -141,6 +141,10 @@ Requires Windows 10.
 
 Having a MinGW install can interfere with the workings of Cygwin. You might get errors related to an undefined `WinMain`. Here are [instructions for uninstalling MinGW](https://stackoverflow.com/questions/15741692/how-to-uninstall-mingw-and-make-cygwin-make-as-deafult-make-program-with-gcc-3).
 
+### Visual Studio Community, or other Visual Studio
+
+While great for building Windows apps, our learning takes place in Unix-like environments. As such, Visual Studio won't work. WSL or Cygwin is necessary for that environment.
+
 ## Linux/Unix-likes
 
 Google for specific instructions using your distribution name, e.g. `ubuntu gcc install`.
