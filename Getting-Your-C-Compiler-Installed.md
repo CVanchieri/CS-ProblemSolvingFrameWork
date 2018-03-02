@@ -67,7 +67,7 @@ If you're going to install XCode anyway for some other reason, you can use these
 
 The two options for Windows that we know of for building the Unix-like code we play with at Lambda School are WSL and Cygwin. MinGW is too minimalist for our use.
 
-### WSL
+### Option A: WSL
 
 The [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/about) is an officially-supported binary compatibility layer for Linux apps running on Windows.
 
@@ -95,9 +95,11 @@ Requires Windows 10.
 * You can bring up a bash shell then switch to your Windows drive, as outlined above. Then run `gcc` or whatever you need to.
 * Unrelated to C programming, VSCode has some integrated WSL support for running the node debugger. See [launching WSL node from the VSCode debugger](https://code.visualstudio.com/updates/v1_17#_first-steps-towards-wsl-support).
 
-### Cygwin
+### Option B: Cygwin
 
 [Cygwin](https://cygwin.com/) is a library compatibility layer for building and running Linux apps.
+
+If you're not running Windows 10 or higher, this is the only option.
 
 * [Install Cygwin](https://cygwin.com/install.html).
 * Launch a _Windows_ command prompt.
@@ -135,13 +137,13 @@ Requires Windows 10.
 
 * Another way to get an error about `WinMain` not being found is if you accidentally specify your source `.c` program as the _output_ file with `-o`. See [General Pitfalls](#general-pitfalls), above.
 
-### MinGW
+### Not Sufficient: MinGW
 
 [MinGW does not support `fork()`, so will not work for LS classes](http://www.mingw.org/node/21).
 
 Having a MinGW install can interfere with the workings of Cygwin. You might get errors related to an undefined `WinMain`. Here are [instructions for uninstalling MinGW](https://stackoverflow.com/questions/15741692/how-to-uninstall-mingw-and-make-cygwin-make-as-deafult-make-program-with-gcc-3).
 
-### Visual Studio Community, or other Visual Studio
+### Not Sufficient: Visual Studio Community, or other Visual Studio
 
 While great for building Windows apps, our learning takes place in Unix-like environments. As such, Visual Studio won't work. WSL or Cygwin is necessary for that environment.
 
