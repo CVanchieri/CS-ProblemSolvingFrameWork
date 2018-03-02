@@ -7,10 +7,29 @@ Instructions and pitfalls in getting your C compiler installed.
 
 ## General Build Instructions
 
+Here's a sample C program, `hello.c`:
+
+```c
+#include <stdio.h>
+
+int main(void)
+{
+    printf("Hello, world!\n");
+
+    return 0;
+}
+```
+
 To build your C program from the command line (Bash shell or Terminal):
 
 ```
 gcc -Wall -Wextra -o hello hello.c
+```
+
+To run it from the command line:
+
+```
+./hello
 ```
 
 ## General Pitfalls
