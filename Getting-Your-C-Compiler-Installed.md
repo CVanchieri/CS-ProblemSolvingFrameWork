@@ -4,6 +4,7 @@ Instructions and pitfalls in getting your C compiler installed.
 * [macos](#macos)
 * [Windows](#windows)
 * [Linux/Unix-likes](#linux-unix-likes)
+* [Virtual Machines](#virtual-machines-windows-macos)
 
 ## General Build Instructions
 
@@ -150,3 +151,19 @@ While great for building Windows apps, our learning takes place in Unix-like env
 ## Linux/Unix-likes
 
 Google for specific instructions using your distribution name, e.g. `ubuntu gcc install`.
+
+## Virtual Machines (Windows, macos)
+
+Instead of the above options for Windows and Mac, you could opt to install a virtual machine (VM) on your computer.  This is like giving yourself a completely separate new computer to run another OS on (e.g. Linux).
+
+This is more work than any of the approaches, above, but does give you a complete Linux system and GUI. A GUI is _not_ required for what we do at Lambda School, so this would be more of a labor of love. If you just want the command line tools, consider WSL or Cygwin instead.
+
+Popular VMs are [VirtualBox](https://www.virtualbox.org/) (free) or [VMWare](https://www.vmware.com/).
+
+If you go this route, you'll be following the terse [Linux instructions, above](#linux-unix-likes).
+
+To run a VM, you'll need to set aside some of your system RAM and disk to support it. We'd recommend at least 12 GB total RAM, with 4 GB for Linux and 8 GB for Windows. 20 GB of disk reserved for Linux should be sufficient.
+
+> 4 GB for Linux is really a minimum. 16 GB total system RAM evenly split between Windows and Linux is better.
+
+You'll also need to choose a Linux distribution and install it. [Mint](https://linuxmint.com/) is popular, [Ubuntu](https://www.ubuntu.com/) is user-friendly, [Arch](https://www.archlinux.org/) is low-level. There are hundreds of distributions. Virtually all of the will work for Lambda School.
