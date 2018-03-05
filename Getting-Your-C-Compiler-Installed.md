@@ -8,7 +8,7 @@ Instructions and pitfalls in getting your C compiler installed.
 
 ## General Build Instructions
 
-Here's a sample C program, `hello.c`:
+Here's a sample C program. You should type this in and save it as `hello.c` with your favorite IDE (e.g. VS Code) or editor (e.g. vim, emacs, etc.):
 
 ```c
 #include <stdio.h>
