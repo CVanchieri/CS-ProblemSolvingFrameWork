@@ -80,6 +80,7 @@ Requires Windows 10.
   * [Check your build number](https://docs.microsoft.com/en-us/windows/wsl/troubleshooting#check-your-build-number). If it is pre-16215, you'll need to turn on developer mode, as per the above instructions.
 * Run bash from the command prompt or start menu.
 * Run `sudo apt install build-essential` to install GCC.
+* If you later get errors about `make` not being installed, type `sudo apt-get make`.
 
 #### Drive Access
 
