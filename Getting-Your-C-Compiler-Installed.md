@@ -95,6 +95,14 @@ Requires Windows 10.
 * Keep your program files on your Windows drive.
 * Run VSCode as normal.
 * You can bring up a bash shell then switch to your Windows drive, as outlined above. Then run `gcc` or whatever you need to.
+* To get VSCode's integrated terminal to use WSL bash, add the following to your VS Code user settings:
+
+   ```
+   "terminal.integrated.shell.windows": "C:\\Windows\\System32\\bash.exe"
+   ```
+
+  [More info here](https://code.visualstudio.com/docs/editor/integrated-terminal).
+
 * Unrelated to C programming, VSCode has some integrated WSL support for running the node debugger. See [launching WSL node from the VSCode debugger](https://code.visualstudio.com/updates/v1_17#_first-steps-towards-wsl-support).
 
 ### Option B: Cygwin
@@ -132,6 +140,14 @@ If you're not running Windows 10 or higher, this is the only option.
 * Keep your files either on your Windows drive or Cygwin drive. Access them as per above.
 * Run VSCode as normal.
 * Run `gcc` from the Cygwin Terminal bash shell.
+* To get VSCode's integrated terminal to use Cygwin bash, add the following to your VS Code user settings:
+   ```
+   "terminal.integrated.shell.windows": "C:\\cygwin\\bin\\bash.exe",
+   "terminal.integrated.env.windows" {"CHERE_INVOKING": "1"},
+   "terminal.integrated.shellArgs.windows": ["-l"]
+   ```
+  [More info here](https://stackoverflow.com/questions/46061894/vs-code-cygwin-as-integrated-terminal).
+
 
 #### Cygwin Pitfalls
 
