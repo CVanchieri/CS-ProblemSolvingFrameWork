@@ -21,7 +21,7 @@ int main(void)
 }
 ```
 
-To build your C program from the command line (Bash shell or Terminal):
+To build your C program from the command line (Bash shell or Terminal), first use the `cd` (_change directory_) command to switch to the directory (when I was a kid, folders were called directories) that has your `hello.c` in it. Then build with:
 
 ```
 gcc -Wall -Wextra -o hello hello.c
