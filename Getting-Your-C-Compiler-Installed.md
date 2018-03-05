@@ -204,7 +204,7 @@ Google for specific instructions using your distribution name, e.g. `ubuntu gcc 
 
 Instead of the above options for Windows and Mac, you could opt to install a virtual machine (VM) on your computer.  This is like giving yourself a completely separate new computer to run another OS on (e.g. Linux).
 
-This is more work than any of the approaches, above, but does give you a complete Linux system and GUI. A GUI is _not_ required for what we do at Lambda School, so this would be more of a labor of love. If you just want the command line tools, consider WSL or Cygwin instead.
+This is more work than any of the approaches, above, but does give you a complete Linux system and GUI. A GUI is _not_ required for what we do at Lambda School, so this would be more of a labor of love. If you just want the command line tools and VS Code, consider WSL or Cygwin instead.
 
 Popular VMs are [VirtualBox](https://www.virtualbox.org/) (free) or [VMWare](https://www.vmware.com/).
 
