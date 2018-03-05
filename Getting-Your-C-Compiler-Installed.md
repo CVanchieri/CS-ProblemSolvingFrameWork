@@ -214,4 +214,4 @@ To run a VM, you'll need to set aside some of your system RAM and disk to suppor
 
 > 4 GB for Linux is really a minimum. 16 GB total system RAM evenly split between Windows and Linux is better.
 
-You'll also need to choose a Linux distribution and install it. [Mint](https://linuxmint.com/) is popular, [Ubuntu](https://www.ubuntu.com/) is user-friendly, [Arch](https://www.archlinux.org/) is low-level. There are hundreds of distributions. Virtually all of the will work for Lambda School.
+You'll also need to choose a Linux distribution and install it. [Mint](https://linuxmint.com/) is popular, [Ubuntu](https://www.ubuntu.com/) is user-friendly, [Arch](https://www.archlinux.org/) is low-level. There are hundreds of distributions. Virtually all of them will work for Lambda School.
