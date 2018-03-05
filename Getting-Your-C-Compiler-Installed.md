@@ -8,6 +8,8 @@ Instructions and pitfalls in getting your C compiler installed.
 
 ## General Build Instructions
 
+(See the sections below for specific per-platform instructions.)
+
 Here's a sample C program. You should type this in and save it as `hello.c` with your favorite IDE (e.g. VS Code) or editor (e.g. vim, emacs, etc.):
 
 ```c
@@ -31,6 +33,35 @@ To run it from the command line:
 
 ```
 ./hello
+```
+
+### A More Advanced Test
+
+If you want to make doubly sure that your environment will work for everything we need it to do at Lambda School, try compiling and running this program, `ctest.c`:
+
+```c
+#include <stdio.h>
+#include <unistd.h>
+#include <stdlib.h>
+
+int main(void)
+{
+    printf("This program should print 1,2,3 in order.\n");
+    printf("If it does, you're good to go with Lambda School C.\n\n");
+    
+    printf("1\n");
+
+    if (fork() == 0) {
+        printf("2\n");
+        exit(0);
+    }
+
+    wait(NULL);
+
+    printf("3\n");
+
+    return 0;
+}
 ```
 
 ## General Pitfalls
