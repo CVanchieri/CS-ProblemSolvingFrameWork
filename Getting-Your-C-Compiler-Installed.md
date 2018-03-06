@@ -111,6 +111,7 @@ Requires Windows 10.
   * [Check your build number](https://docs.microsoft.com/en-us/windows/wsl/troubleshooting#check-your-build-number). If it is pre-16215, you'll need to turn on developer mode, as per the above instructions.
 * Run bash from the command prompt or start menu.
 * Run `sudo apt install build-essential` to install GCC.
+ * See below if you get a long string of 404 errors.
 
 #### Drive Access
 
@@ -140,9 +141,9 @@ Requires Windows 10.
 * If you later get errors about `make` not being installed, type `sudo apt-get make`.
 * If you get 404s when doing `sudo apt-get`, try:
    ```
-   sudo apt-get update
+   sudo apt-get update && sudo apt-get install X 
    ```
-  then re-run your `apt-get` to do the install.
+  (Thanks VC!)
 
 
 ### Option B: Cygwin
