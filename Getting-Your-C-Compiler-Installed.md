@@ -111,7 +111,6 @@ Requires Windows 10.
   * [Check your build number](https://docs.microsoft.com/en-us/windows/wsl/troubleshooting#check-your-build-number). If it is pre-16215, you'll need to turn on developer mode, as per the above instructions.
 * Run bash from the command prompt or start menu.
 * Run `sudo apt install build-essential` to install GCC.
-* If you later get errors about `make` not being installed, type `sudo apt-get make`.
 
 #### Drive Access
 
@@ -135,6 +134,16 @@ Requires Windows 10.
   [More info here](https://code.visualstudio.com/docs/editor/integrated-terminal).
 
 * Unrelated to C programming, VSCode has some integrated WSL support for running the node debugger. See [launching WSL node from the VSCode debugger](https://code.visualstudio.com/updates/v1_17#_first-steps-towards-wsl-support).
+
+#### WSL Pitfalls
+
+* If you later get errors about `make` not being installed, type `sudo apt-get make`.
+* If you get 404s when doing `sudo apt-get`, try:
+   ```
+   sudo apt-get update
+   ```
+  then re-run your `apt-get` to do the install.
+
 
 ### Option B: Cygwin
 
