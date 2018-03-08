@@ -152,6 +152,8 @@ Requires Windows 10.
 
 If you're not running Windows 10 or higher, this is the only option.
 
+**_WARNING!!!  Any programs you compile with Cygwin will only run within Cygwin.  They will not function in regular Windows/DOS, Linux, or Mac._**
+
 * [Install Cygwin](https://cygwin.com/install.html).
 * Launch a _Windows_ command prompt.
 * Install the necessary packages by running the Cygwin Setup utility.
