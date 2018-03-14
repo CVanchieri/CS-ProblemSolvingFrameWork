@@ -12,6 +12,7 @@ Everything can be found on the Pages tab to the right.
 * [[Getting Your C Compiler Installed]]
 * [[Why Learn Computer Science?]]
 * [[How to Google Effectively]]
+* [[How Unix Pipes are Implemented]]
 
 ## Other Lore
 
