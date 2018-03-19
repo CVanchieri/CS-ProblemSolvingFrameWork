@@ -13,6 +13,7 @@ Everything can be found on the Pages tab to the right.
 * [[Why Learn Computer Science?]]
 * [[How to Google Effectively]]
 * [[How Unix Pipes are Implemented]]
+* [[How to Read Specifications and Instructions]]
 
 ## Other Lore
 
