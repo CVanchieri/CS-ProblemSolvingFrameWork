@@ -79,6 +79,14 @@ int main(void)
 
 * If you're on Windows and get errors about `WinMain`, make sure you have a `main()` function in your code! There are also other reasons you might see this error. Read on, below.
 
+* If you're on Windows, you might also want to run
+
+  ```
+  git config --global core.autocrlf false
+  ```
+
+  This makes it so git doesn't automatically set newlines to Windows-style when it clones a repo. VS Code and other editors should work fine with Unix-style newlines. (And Windows-style newlines cause bash scripts to break.)
+
 ## macos
 
 ### Option A: Command Line Tools
