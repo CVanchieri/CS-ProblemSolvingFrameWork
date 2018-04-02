@@ -43,6 +43,7 @@ If you want to make doubly sure that your environment will work for everything w
 #include <stdio.h>
 #include <unistd.h>
 #include <stdlib.h>
+#include <sys/wait.h>
 
 int main(void)
 {
