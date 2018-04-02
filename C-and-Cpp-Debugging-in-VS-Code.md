@@ -8,7 +8,7 @@ Install that extension and restart VSC.
 [Here is an example project](https://github.com/LambdaSchool/CS-Wiki/tree/master/vscdebugc).
 
 
-## Building the Project in VSC
+## Building the Project in VS Code
 
 _**Currently, this build process only works for MacOS and Linux.  It is unknown if it will work on Windows 10 with WSL.  See below for additional instructions on compiling in Windows 7 with Cygwin.**_
 
@@ -139,7 +139,7 @@ To compile and run your program, you cannot use the `Ctrl + Shift + B` shortcut.
 6. To run your new program, type `./foo.exe` in the terminal.
 
 
-## Debugging the Project in VSC
+## Debugging the Project in VS Code
 
 **IMPORTANT**: You *must* build your C code with the `-g` switch to `gcc` or `clang`. This causes debugging information to be included in the binary.
 
@@ -195,6 +195,16 @@ Example `launch.json`:
 ```
 
 `launch.json` will be found in the `.vscode/` directory in the project workspace.
+
+### Intellisense in Windows/WSL
+
+Follow [the instructions on this page](https://github.com/Microsoft/vscode-cpptools/blob/master/Documentation/LanguageServer/Windows%20Subsystem%20for%20Linux.md).
+
+Note that if `<stdio.h>` fails to highlight, you might need to add a final `/*` to the last line in the `includePath` section:
+
+```
+"${localappdata}/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/usr/include/*"
+```
 
 ### Running the Debugger
 
