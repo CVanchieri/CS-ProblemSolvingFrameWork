@@ -33,3 +33,7 @@ binary `1111` == signed decimal `-1` == unsigned decimal `15`
 That means on a 4-bit machine, converting -1 to unsigned gives you 15.
 
 On a 32-bit machine, converting -1 to unsigned gives 4294967295, which is binary 11111111111111111111111111111111 in both cases.
+
+2's complement is particularly beautiful because the exact same circuitry inside the CPU can be used to do math on positive or negative numbers. Saves space and money.
+
+One other consequence of storing numbers in this way is that you can tell if a number is positive or negative by looking at its highest (left-most) bit. If it's `1`, it's negative.
