@@ -14,6 +14,7 @@ Everything can be found on the Pages tab to the right.
 * [[How to Google Effectively]]
 * [[How Unix Pipes are Implemented]]
 * [[How to Read Specifications and Code]]
+* [[Useful vim commands]]
 
 ## Other Lore
 
