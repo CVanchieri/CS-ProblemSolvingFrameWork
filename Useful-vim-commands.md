@@ -20,7 +20,12 @@ This is _not_ a complete reference or a tutorial. It is just the commands that w
 * `A`: append starting at end of line
 * `D`: delete to end of line
 * `C`: change from here to end of line
+* `rX`: replace the current character with character _X_
+* `R`: start replacing characters from the cursor on
 * `~`: change the case of a character
+* `dd`: delete (cut) the current line
+* `dw`: delete the current word
+* `d$`: delete from cursor to end of line
 * `dtX`: delete all characters up to the next occurrence of _X_ in the line
 * `dTX`: delete all characters down to the previous occurrence of _X_ in the line
 * `ctX`: change the characters from the cursor to the next occurrence of _X_ in the line
@@ -79,6 +84,8 @@ Best used with [Visual Blocks](#visual-blocks).
 * `dd`: delete (cut) the current line
 * `dw`: delete the current word
 * `d$`: delete from cursor to end of line
+* `dtX`: delete all characters up to the next occurrence of _X_ in the line
+* `dTX`: delete all characters down to the previous occurrence of _X_ in the line
 * `x`: delete the character under the cursor
 * `yy`: copy the current line
 * `yw`: copy the current word
