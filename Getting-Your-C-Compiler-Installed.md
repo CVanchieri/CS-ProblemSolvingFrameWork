@@ -4,6 +4,7 @@ Instructions and pitfalls in getting your C compiler installed.
 * [macos](#macos)
 * [Windows](#windows)
 * [Linux/Unix-likes](#linux-unix-likes)
+* [Raspberry Pi](#raspberry-pi)
 * [Virtual Machines](#virtual-machines-windows-macos)
 
 ## General Build Instructions
