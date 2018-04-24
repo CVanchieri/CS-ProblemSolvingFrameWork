@@ -35,6 +35,8 @@ To run it from the command line:
 ./hello
 ```
 
+(In PowerShell, use `.\hello`.)
+
 ### A More Advanced Test
 
 If you want to make doubly sure that your environment will work for everything we need it to do at Lambda School, try compiling and running this program, `ctest.c`:
@@ -167,6 +169,10 @@ If you're not running Windows 10 or higher, this is the only option.
   ```
   setup-x86_64.exe -q -P wget -P gcc-g++ -P make -P diffutils -P libmpfr-devel -P libgmp-devel -P libmpc-devel
   ```
+  * If you're using PowerShell, you might have to put a path in front of the `setup` command, e.g.
+    ```
+    .\setup-x86_64.exe etc. etc.
+    ```
 * Launch Cygwin-Terminal from its icon.
 
 #### Drive Access
@@ -204,6 +210,13 @@ If you're not running Windows 10 or higher, this is the only option.
 * If you have MinGW also installed, make sure that the Cygwin binaries are first in your `PATH`. If not, it will run the wrong GCC on the command line and you'll receive an error about `WinMain` not being found. Uninstall MinGW, per below.
 
 * Another way to get an error about `WinMain` not being found is if you accidentally specify your source `.c` program as the _output_ file with `-o`. See [General Pitfalls](#general-pitfalls), above.
+
+* If gcc gives you an error along these lines:
+  ```
+     0 [sig] make 7332 get_proc_lock: Couldn't acquire sync_proc_subproc for(5, 1), last 7, Win32 error 0
+  1324 [sig] make 7332 proc_subproc: couldn't get proc lock. what 5, val 1
+  ```
+  disable your Avast (or other) anti-virus software.
 
 ### Not Sufficient: MinGW
 
