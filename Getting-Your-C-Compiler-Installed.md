@@ -232,6 +232,20 @@ While great for building Windows apps, our learning takes place in Unix-like env
 
 Google for specific instructions using your distribution name, e.g. `ubuntu gcc install`.
 
+## Raspberry Pi
+
+A modern Raspberry Pi image comes with gcc ready to go out of the box. You'll need an external HDMI monitor, USB keyboard, and USB mouse.
+
+Once you have it set up, you can enable `ssh` access to the Pi and then log into it from your main computer.
+
+### Raspberry Pi Pitfalls
+
+* If your mouse is behaving sluggishly, add the following line to `/boot/cmdline.txt` then reboot:
+  ```
+  usbhid.mousepoll=0
+  ```
+  If that breaks your mousewheel, another value that might work is `usbhid.mousepoll=4`.
+
 ## Virtual Machines (Windows, macos)
 
 Instead of the above options for Windows and Mac, you could opt to install a virtual machine (VM) on your computer.  This is like giving yourself a completely separate new computer to run another OS on (e.g. Linux).
