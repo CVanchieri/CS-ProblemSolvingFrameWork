@@ -113,6 +113,8 @@ The two options for Windows that we know of for building the Unix-like code we p
 
 ### Option A: WSL
 
+**This is the recommended option, but is only available for Windows 10 and higher. Earlier versions must use Cygwin, below.**
+
 The [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/about) is an officially-supported binary compatibility layer for Linux apps running on Windows.
 
 This basically gives you a mini Linux install. Ubuntu is recommended, but not required.
