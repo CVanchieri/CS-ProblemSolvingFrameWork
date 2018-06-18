@@ -176,6 +176,19 @@ If you're not running Windows 10 or higher, this is the only option.
     ```
     .\setup-x86_64.exe etc. etc.
     ```
+  * 32-bit users would run:
+    ```
+    setup-x86.exe -q -P wget -P gcc-g++ -P make -P diffutils -P libmpfr-devel -P libgmp-devel -P libmpc-devel
+    ```
+* [Add the appropriate entry at the front/top of your Windows path](https://www.computerhope.com/issues/ch000549.htm):
+  ```
+  C:\cygwin64\bin
+  ```
+  or, for 32-bit:
+  ```
+  C:\cygwin\bin
+  ```
+  If you are editing the entire `PATH` variable at once, remember that entries are separated from one another by `;`s.
 * Launch Cygwin-Terminal from its icon.
 
 #### Drive Access
@@ -190,6 +203,11 @@ If you're not running Windows 10 or higher, this is the only option.
   ```
 
 * To get to your Cygwin drive from Windows command prompt, type:
+  ```
+  cd c:\cygwin64\home\youruser
+  ```
+
+  On 32-bit systems, this might be:
   ```
   cd c:\cygwin\home\youruser
   ```
