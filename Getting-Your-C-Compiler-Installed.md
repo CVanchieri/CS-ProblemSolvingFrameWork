@@ -253,6 +253,20 @@ While great for building Windows apps, our learning takes place in Unix-like env
 
 Google for specific instructions using your distribution name, e.g. `ubuntu gcc install`.
 
+### Ubuntu/clang Pitfalls
+
+If you get an error like this during a build:
+
+```
+/usr/bin/ld: cannot find crti.o: No such file or directory
+```
+
+Add the following to your `~/.bashrc` or `~/.bash_profile` and relaunch your shell:
+
+```
+export LIBRARY_PATH=/usr/lib64:/usr/lib32:$LIBRARY_PATH
+```
+
 ## Raspberry Pi
 
 A modern Raspberry Pi image comes with gcc ready to go out of the box. You'll need an external HDMI monitor, USB keyboard, and USB mouse.
