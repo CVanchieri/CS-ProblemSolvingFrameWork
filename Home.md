@@ -15,6 +15,7 @@ Everything can be found on the Pages tab to the right.
 * [[How Unix Pipes are Implemented]]
 * [[How to Read Specifications and Code]]
 * [[Useful vim commands]]
+* [[Javascript/Python cheatsheet]]
 
 ## Other Lore
 
