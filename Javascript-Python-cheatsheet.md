@@ -790,7 +790,8 @@ Goat.prototype.jump = function () {
 };
 
 g = new Goat("red");
-g.type; // "mammal", since Goat inherits from Creature
+g.type;   // "mammal", since Goat inherits from Creature
+g.jump(); // "I'm jumping! Yay!"
 ```
 
 Modern JS introduced the `class` keyword and a syntax more familiar to most other OOP languages. Note that the inheritance model is still prototypal inheritance; it's just that the details are hidden from the developer.
