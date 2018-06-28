@@ -411,7 +411,7 @@ Python supports building lists with _list comprehensions_. This is often useful 
 a = [1, 2, 3, 4, 5]
 
 # Make a list b that is the same as list a:
-b = [i for i in a] . # Pretty boring
+b = [i for i in a]  # Pretty boring
 
 # Make a list c that contains only the
 # even elements of a:
