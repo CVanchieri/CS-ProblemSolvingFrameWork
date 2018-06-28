@@ -844,4 +844,26 @@ g = Goat("green")
 g.type    # mammal
 g.jump()  # I'm jumping! Yay!
 ```
+
+Python 3 syntax includes the new `super()` keyword to make life easier.
+
+```python
+class Creature:
+  def __init__(self, type): # constructor
+    self.type = type
+
+class Goat(Creature):
+  def __init__(self, color):
+    # call super constructor
+    super().__init__("mammal")  # <-- Nicer!
+    self.color = color
+  
+  def jump(self):
+    print("I'm jumping! Yay!")
+
+g = Goat("green")
+g.type    # mammal
+g.jump()  # I'm jumping! Yay!
+```
+
 Python supports multiple inheritance.
