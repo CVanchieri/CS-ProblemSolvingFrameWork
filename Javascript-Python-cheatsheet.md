@@ -289,7 +289,7 @@ x = 10
 let a = 12;        // number
 let b = 1.2;       // number
 let c = 'hello';   // string
-let d = 'world';   // string 
+let d = "world";   // string 
 let e = true;      // boolean
 let f = null;      // null value
 let g = undefined; // undefined value
@@ -323,7 +323,7 @@ Number("2") + 4;   // number 6
 a = 12       # int (integer)
 b = 1.2      # float (floating point)
 c = 'hello'  # str (string)
-d = 'world'  # str
+d = "world"  # str
 e = False    # bool (boolean)
 f = None     # null value
 ```
