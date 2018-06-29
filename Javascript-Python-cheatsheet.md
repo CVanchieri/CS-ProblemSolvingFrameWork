@@ -12,6 +12,7 @@
 * [Arrays/Lists](#arrayslists)
 * [Objects/Dicts](#objectsdicts)
 * [Booleans and Conditionals](#booleans-and-conditionals)
+* [String Formatting](#string-formatting)
 * [`for` Loops](#for-loops)
 * [`while` Loops](#while-loops)
 * [`switch` Statement](#switch-statement)
