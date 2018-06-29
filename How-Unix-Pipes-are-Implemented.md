@@ -14,7 +14,7 @@ Steps are:
      1. Use `dup2()` to hook file descriptor `0` (`stdin`) up to the "read" end of the pipe `fd[0]`. This makes it so that whenever the child process reads from `stdin`, it actually reads from the pipe.
      2. Use `execlp()` to run `wc`. `wc` will read from `stdin` as per usual, but unbeknownst to it, we've hooked that up to the pipe.
 4. In the parent:
-     1. Use `dup2()` to hook file descriptor `1` (`stdout`) up to the "write" end of the pipe `fd[1]`. This makes it so that whenever the parent process reads from `stdout`, it actually writes into the pipe.
+     1. Use `dup2()` to hook file descriptor `1` (`stdout`) up to the "write" end of the pipe `fd[1]`. This makes it so that whenever the parent process writes to `stdout`, it actually writes into the pipe.
      2. Use `execlp()` to run `ls -la /`. `ls` will write to `stdout` as per usual, but unbeknownst to it, we've hooked that up to the pipe.
 
 That's it!
