@@ -575,6 +575,53 @@ if a == 2 and b != "":
   # Something complicated
 ```
 
+## String formatting
+
+### JavaScript
+
+Converting to different number bases:
+
+```javascript
+let x = 237;
+let x_binary = x.toString(2); // string '11101101'
+let x_hex = x.toString(16);   // string 'ed'
+```
+
+Controlling floating point precision:
+```javascript
+let x = 3.1415926535;
+let y = x.toFixed(2);  // string '3.14'
+```
+
+Padding and justification:
+```javascript
+let s = "Hello!";
+let t = s.padStart(10, ' '); // string '    Hello!' 
+let u = s.padEnd(10, ' ');   // string 'Hello!    '
+
+let v = s.padStart(10, '*'); // string '****Hello!' 
+
+// Pad with leading zeroes
+(12).toString(2).padStart(8, '0'); // string '00001100'
+```
+
+Parameterized strings:
+```javascript
+let x = 3.1415926;
+let y = "Hello";
+let z = 67;
+
+// 'x is 3.14, y is "Hello", z is 01000011'
+let s = `x is ${x.toFixed(2)}, y is "${y}", z is ${z.toString(2).padStart(8, '0')}`
+```
+
+### Python
+
+Python has the printf operator `%` which is tremendously powerful. (If the operands to `%` are numbers, modulo is performed. If the left operand is a string, printf is performed.)
+
+See [printf-style String Formatting](https://docs.python.org/3/library/stdtypes.html#printf-style-string-formatting) for a reference.
+
+See [Python Course, Formatted Output](https://www.python-course.eu/python3_formatted_output.php) for more info.
 
 ## `for` Loops
 
