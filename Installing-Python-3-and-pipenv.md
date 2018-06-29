@@ -7,6 +7,17 @@ If you can run `python` or `python3` and see a 3.x version, and you can run `pip
 ```
 $ python3 --version
 Python 3.6.5
+```
+or on some systems, Python 3 is just `python`:
+
+```
+$ python --version
+Python 3.6.5
+```
+
+And try `pipenv`:
+
+```
 $ pipenv --version
 pipenv, version 11.10.1
 ```
