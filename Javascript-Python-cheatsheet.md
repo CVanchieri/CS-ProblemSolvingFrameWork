@@ -779,7 +779,9 @@ switch(x) {
 
 ### Python
 
-Python doesn't have a `switch` statement. A somewhat clumsy approximation can be constructed with a `dict` of functions.
+Python doesn't have a `switch` statement. You can use `if`-`elif`-`else` blocks.
+
+A somewhat clumsy approximation of a `switch` can be constructed with a `dict` of functions.
 
 ```python
 def func1():
