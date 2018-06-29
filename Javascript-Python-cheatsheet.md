@@ -463,6 +463,8 @@ console.log(o4["foo"]); // prints hello
 
 _Dicts_ hold information that can be accessed by a _key_.
 
+Unlike objects in JS, a `dict` is its own beast, and is not the same as an object obtained by instantiating a Python class.
+
 Creation:
 
 ```python
