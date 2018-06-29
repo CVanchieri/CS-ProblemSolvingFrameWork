@@ -1,3 +1,4 @@
+
 ## Contents
 * [Versions](#versions)
 * [Development Environments](#development-environments)
@@ -372,6 +373,12 @@ a4[0] = 5;   // change from 10 to 5
 a4[20] = 99; // OK, makes a new element at index 20
 ```
 
+Length/number of elements:
+
+```javascript
+a4.length; // 3
+```
+
 ### Python
 
 In Python, arrays are called _lists_.
@@ -393,6 +400,12 @@ print(a4[1])  # prints 20
 
 a4[0] = 5;    # change from 10 to 5
 a4[20] = 99;  # ERROR: assignment out of range
+```
+
+Length/Number of elements:
+
+```python
+len(a4)   # 3
 ```
 
 #### Tuples
