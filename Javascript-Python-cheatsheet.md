@@ -237,6 +237,7 @@ print(add(4, 5)) # prints 9
 |`%`|Modulo (remainder)|
 |`--`|Pre-decrement, post-decrement|
 |`++`|Pre-increment, post-increment|
+|`**`|Exponentiation (power)|
 |`=`|Assignment|
 |`+=`|Addition assignment|
 |`-=`|Subtraction assignment|
@@ -255,6 +256,7 @@ The pre- and post-increment and decrement are notably absent.
 |`+`|Multiplication|
 |`/`|Division|
 |`%`|Modulo (remainder)|
+|`**`|Exponentiation (power)|
 |`=`|Assignment|
 |`+=`|Addition assignment|
 |`-=`|Subtraction assignment|
