@@ -576,7 +576,7 @@ if a == 2 and b != "":
   # Something complicated
 ```
 
-## String formatting
+## String Formatting
 
 ### JavaScript
 
@@ -620,9 +620,11 @@ let s = `x is ${x.toFixed(2)}, y is "${y}", z is ${z.toString(2).padStart(8, '0'
 
 Python has the printf operator `%` which is tremendously powerful. (If the operands to `%` are numbers, modulo is performed. If the left operand is a string, printf is performed.)
 
-See [printf-style String Formatting](https://docs.python.org/3/library/stdtypes.html#printf-style-string-formatting) for a reference.
+But even `%` is being superseded by the `format` function.
 
-See [Python Course, Formatted Output](https://www.python-course.eu/python3_formatted_output.php) for more info.
+[Tons of details at pyformat.info](https://pyformat.info/).
+
+Also see [printf-style String Formatting](https://docs.python.org/3/library/stdtypes.html#printf-style-string-formatting) for a reference.
 
 ## `for` Loops
 
