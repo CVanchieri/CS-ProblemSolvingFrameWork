@@ -16,6 +16,7 @@ Everything can be found on the Pages tab to the right.
 * [[How to Read Specifications and Code]]
 * [[Useful vim commands]]
 * [[Javascript/Python cheatsheet]]
+* [[Installing Python 3 and pipenv]]
 
 ## Other Lore
 
