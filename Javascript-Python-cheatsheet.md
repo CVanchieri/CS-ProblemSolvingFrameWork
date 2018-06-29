@@ -162,10 +162,10 @@ Indentation level is how blocks are declared. The preferred method is to use spa
 ```python
 if x == 2:
   print("x must be 2")
-else
+else:
   if x == 3:
     print("x must be 3")
-  else
+  else:
     print("x must be something else")
 ```
 
