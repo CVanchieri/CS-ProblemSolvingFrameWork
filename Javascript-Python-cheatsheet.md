@@ -468,6 +468,14 @@ o4 = {  # multiline format
 }
 ```
 
+Access:
+
+```python
+print(o4["a"])  # Prints 20
+```
+
+Dot notation does not work with Python dicts.
+
 ## Booleans and Conditionals
 
 ### JavaScript
