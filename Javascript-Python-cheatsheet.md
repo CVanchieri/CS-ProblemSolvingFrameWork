@@ -338,6 +338,13 @@ s = """this is a
 multi-line string"""
 ```
 
+Parameterized strings:
+
+```python
+x = 12
+print(f'x is {x}')   # prints "x is 12"
+```
+
 Python is generally _strongly typed_ so it it will often complain if you try to mix and match types. You can coerce a type with the `int()`, `float()`, `str()`, and `bool()` functions.
 
 ```python
