@@ -42,7 +42,23 @@ brew install python pipenv
 
 ## Windows
 
-### Option A: WSL
+### Native
+
+[Install Python 3](https://www.python.org/downloads/windows/)
+
+[Install pipenv per these instructions](http://docs.python-guide.org/en/latest/dev/virtualenvs/#virtualenvironments-ref)
+
+### Chocolatey
+
+[Install Chocolatey](https://chocolatey.org/install)
+
+[Install Python 3 with Chocolatey](https://chocolatey.org/packages/python3)
+
+[Install pipenv per these instructions](http://docs.python-guide.org/en/latest/dev/virtualenvs/#virtualenvironments-ref)
+
+### WSL
+
+**NOTE: WSL will NOT work for one of the modules since that module uses a GUI.**
 
 If you're running Windows 10+, you might want to install [WSL](https://docs.microsoft.com/en-us/windows/wsl/install-win10) with Ubuntu.
 
@@ -57,20 +73,6 @@ Install pipenv:
 ```
 pip install pipenv
 ```
-
-### Option B: Chocolatey
-
-[Install Chocolatey](https://chocolatey.org/install)
-
-[Install Python 3 with Chocolatey](https://chocolatey.org/packages/python3)
-
-[Install pipenv per these instructions](http://docs.python-guide.org/en/latest/dev/virtualenvs/#virtualenvironments-ref)
-
-### Option C: Native
-
-[Install Python 3](https://www.python.org/downloads/windows/)
-
-[Install pipenv per these instructions](http://docs.python-guide.org/en/latest/dev/virtualenvs/#virtualenvironments-ref)
 
 ## Linux
 Consult the documentation for your distribution.
