@@ -46,8 +46,6 @@ brew install python pipenv
 
 [Install Python 3](https://www.python.org/downloads/windows/)
 
-pipenv should come with the stock installer. Run it on the command line to check. If it's not installed, keep going:
-
 [Install pipenv per these instructions](http://docs.python-guide.org/en/latest/dev/virtualenvs/#virtualenvironments-ref)
 
 ### Chocolatey
