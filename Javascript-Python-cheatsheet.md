@@ -10,6 +10,7 @@
 * [Variables](#variables)
 * [Data Types](#data-types)
 * [Arrays/Lists](#arrayslists)
+* [Slices](#slices)
 * [Objects/Dicts](#objectsdicts)
 * [String Formatting](#string-formatting)
 * [Booleans and Conditionals](#booleans-and-conditionals)
@@ -412,6 +413,27 @@ Length/Number of elements:
 
 ```python
 len(a4)   # 3
+```
+
+## Slices
+
+### Python
+
+In Python, we can access parts of lists or strings using slices.
+
+Creating slices:
+```python
+a[start:end] # items start through end-1
+a[start:]    # items start through the rest of the array
+a[:end]      # items from the beginning through end-1
+a[:]         # a copy of the whole array
+```
+Starting from the end:
+We can also use negative numbers when creating slices, which just means we start with the index at the end of the array, rather than the index at the beginning of the array.
+```python
+a[-1]    # last item in the array
+a[-2:]   # last two items in the array
+a[:-2]   # everything except the last two items
 ```
 
 #### Tuples
