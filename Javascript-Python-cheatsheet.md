@@ -415,9 +415,7 @@ Length/Number of elements:
 len(a4)   # 3
 ```
 
-### Slices
-
-### Python
+#### Slices
 
 In Python, we can access parts of lists or strings using slices.
 
