@@ -971,4 +971,4 @@ g.type    # mammal
 g.jump()  # I'm jumping! Yay!
 ```
 
-Python supports multiple inheritance.
+Python supports multiple inheritance. 
