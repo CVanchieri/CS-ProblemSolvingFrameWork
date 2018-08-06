@@ -230,6 +230,14 @@ If you're not running Windows 10 or higher, this is the only option.
 
 * If you have MinGW also installed, make sure that the Cygwin binaries are first in your `PATH`. If not, it will run the wrong GCC on the command line and you'll receive an error about `WinMain` not being found. Uninstall MinGW, per below.
 
+* If you get the `base mismatch` error:
+
+  ```
+  C:\cygwin64\bin\make.exe: *** fatal error - cygheap base mismatch detected
+  ```
+
+It could be because of an incompatibility with MinGW. Recommend uninstalling MinGW, or at least make sure Cygwin is in your `PATH` first, as above.
+
 * Another way to get an error about `WinMain` not being found is if you accidentally specify your source `.c` program as the _output_ file with `-o`. See [General Pitfalls](#general-pitfalls), above.
 
 * If gcc gives you an error along these lines:
