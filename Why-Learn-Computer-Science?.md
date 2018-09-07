@@ -137,3 +137,26 @@ But even the ones that don't make it might have interesting, alternative approac
 It can be useful to get a newsreader and follow feeds on your favorite sites (reddit, or whichever). Just skimming the headlines gets you an idea of what's new and exciting. You can always read more if it's enticing.
 
 Remember: it's a big computing world out there, yours to pursue as you choose!
+
+# Mission Statement
+
+### The goal of Computer Science is to de-mystify computers and computing and to help students write better code.
+
+#### De-mystify computers and computing:
+
+- Breadth of Technical Knowledge
+Students should understand how code works, how computers work, how the internet works, and how they all work together.
+
+- Sense of Scale
+Students should be comfortable identifying and measuring complexity and understand techniques for refactoring code for scalability.
+
+#### Write better code:
+
+- Quality
+Students code with a consistent eye toward scalability and readability, i.e. code that is efficient and easily maintained.
+
+- Quantity
+Students write large quantities of code every day, building the reps needed to overcome difficult challenges and build confidence.
+
+- Diversity
+Students tackle a variety of challenges, picking up a versatile set of skills and building comfort with the unknown.
