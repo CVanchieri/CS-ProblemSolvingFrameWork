@@ -20,6 +20,10 @@ If the language is too different, the learning curve becomes prohibitive. We don
 
 In the same vein, a language might be different and unchallenging. Go and Swift are good examples. These are great modern languages, and anyone remotely skilled can pick them up in short order.
 
+As you learn the new language, keep in mind that the skill is actually _learning to learn the new language_. You are practicing skills that apply to more than just the language in question.
+
+A lot of great devs also know assembly language. Not because it's something they ever use at work, but because the skills they gained over the course of learning assembly language were so broadly useful and powerful in other areas that it set them apart.
+
 C has a number of additional benefits.
 
 * It's low-level. Being this close to  the metal helps demystify the computer, especially given the context you'll get in computer architecture. Demystifying the computer is one of the primary goals of the CS program.
