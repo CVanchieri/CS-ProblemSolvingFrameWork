@@ -11,6 +11,7 @@ Everything can be found on the Pages tab to the right.
 * [[Keeping GitHub Forks in Sync]]
 * [[Getting Your C Compiler Installed]]
 * [[Why Learn Computer Science?]]
+* [[Why Learn C?]]
 * [[How to Google Effectively]]
 * [[How Unix Pipes are Implemented]]
 * [[How to Read Specifications and Code]]
