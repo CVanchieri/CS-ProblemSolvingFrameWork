@@ -32,7 +32,7 @@ C has a number of additional benefits.
 
 * C++ is a superset of C. You can't learn C++ without learning C. C++ support is in the webassembly MVP.
 
-* Knowing C is a badge of pride. It's has roots deep in computing history and is full of concepts that many devs of lesser knowledge find quite intimidating. If you can program in C, you can program in just about anything.
+* Knowing C is a badge of pride. It's has deep roots in computing history and is full of concepts that many devs of lesser knowledge find quite intimidating. If you can program in C, you can program in just about anything.
 
 Great racecar drivers are skilled in _any_ car. Great devs are skilled in _any language_.  Be great in whatever language you use.
 
