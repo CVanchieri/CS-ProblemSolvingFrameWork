@@ -42,6 +42,8 @@ brew install python pipenv
 
 ## Windows
 
+_Note:_ Git Bash doesn't seem to cooperate if you're trying to install Python on Windows. Try another terminal like Powershell. 
+
 ### Native
 
 [Install Python 3](https://www.python.org/downloads/windows/)
