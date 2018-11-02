@@ -1,4 +1,6 @@
-We'll want to install Python 3 (version 3.x). Additionally, we'll be using the pipenv virtual environment manager.
+We'll want to install Python 3 (version 3.x), which is the runtime for the language itself. The runtime is what allows you to execute Python code and files by typing `python [file_or_code_to_execute]` in your terminal. You can also open up a Python REPL (Read-Eval-Print Loop) to quickly and easily mess around with Python code once you've gotten the runtime installed. If you recall how Node let's you execute and run JavaScript code locally on your machine instead of having to rely on the browser, the Python runtime pretty much let's you do the same thing but with Python code. 
+
+Additionally, we'll be using the pipenv virtual environment manager. Think of it as the `npm` of Python (though pipenv is also capable of performing a bunch of other tasks as well, most notably running your Python projects in an isolated virtual environment). 
 
 ## Note for Anaconda users
 
@@ -42,7 +44,7 @@ brew install python pipenv
 
 ## Windows
 
-_Note:_ Git Bash doesn't seem to cooperate if you're trying to install Python on Windows. Try another terminal like Powershell. 
+_**Note**:_ Git Bash doesn't seem to cooperate if you're trying to install Python on Windows. Try another terminal like Powershell. 
 
 ### Native
 
