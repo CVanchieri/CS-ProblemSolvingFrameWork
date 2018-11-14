@@ -18,6 +18,7 @@ Everything can be found on the Pages tab to the right.
 * [[Useful vim commands]]
 * [[Javascript/Python cheatsheet]]
 * [[Installing Python 3 and pipenv]]
+* [[Command Line Primer]]
 
 ## Other Lore
 
