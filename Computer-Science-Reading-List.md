@@ -4,9 +4,10 @@ Optional reading for your spare time...
 
 Books:
 
+* [Grokking Algorithms](https://www.manning.com/books/grokking-algorithms)--Beej's favorite
 * [Algorithms in a Nutshell](http://shop.oreilly.com/product/9780596516246.do)
 * [Hacker's Delight](http://www.hackersdelight.org/)
-* [Introduction to Algorithms](https://mitpress.mit.edu/books/introduction-algorithms) (Cormen et al)
+* [Introduction to Algorithms](https://mitpress.mit.edu/books/introduction-algorithms) (Cormen et al)--Beej's other favorite
 * [Foundations of Computer Science](http://i.stanford.edu/~ullman/focs.html)
 
 Web pages:
