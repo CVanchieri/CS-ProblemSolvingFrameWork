@@ -20,7 +20,7 @@ Web pages:
 ## Architecture
 
 * [The Elements of Computing Systems: Building a Modern Computer from First Principles](https://mitpress.mit.edu/books/elements-computing-systems)
-    * [NAND2Tetris](http://nand2tetris.org/)
+    * [NAND2Tetris](http://nand2tetris.org/)--the companion website
 
 ## Languages
 
