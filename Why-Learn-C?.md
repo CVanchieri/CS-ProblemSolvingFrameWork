@@ -24,6 +24,8 @@ As you learn the new language, keep in mind that the skill is actually _learning
 
 A lot of great devs also know assembly language. Not because it's something they ever use at work, but because the skills they gained over the course of learning assembly language were so broadly useful and powerful in other areas that it set them apart.
 
+3. A language that we can become proficient in during our short time at Lambda School. It would take three C++ sprints to get to the same level of proficiency that we get to in a single C sprint.
+
 C has a number of additional benefits.
 
 * It's low-level. Being this close to  the metal helps demystify the computer, especially given the context you'll get in computer architecture. Demystifying the computer is one of the primary goals of the CS program.
@@ -34,7 +36,7 @@ C has a number of additional benefits.
 
 * Pointers are a thing in other languages. Notably C++ and Go both heavily use pointers.
 
-* C++ is a superset of C. You can't learn C++ without learning C. C++ support is in the WebAssembly MVP.
+* C++ is a superset of C. You basically cannot learn C++ without learning C in the process. C++ support is in the WebAssembly MVP.
 
 * Knowing C is a badge of pride. It's has deep roots in computing history and is full of concepts that many devs of lesser knowledge find quite intimidating. If you can program in C, you can program in just about anything.
 
@@ -42,6 +44,6 @@ Great race car drivers are skilled in _any_ car. Great devs are skilled in _any 
 
 We all have our opinions, of course. Many people think C++ is a horrible language. But if a good dev sat down with it for 2 weeks, they'd be a good C++ dev. In a month they'd be a great C++ dev.
 
-You might worry that you're getting rusty on JS, Swift, or Java. And unless you're writing in one of those languages every day, you are. But the good news is the rust shakes off fast. You can be rust-free after 2 hours of refresher.
+You might worry that you're getting rusty on JS, Swift, or Java. And unless you're writing in one of those languages every day, you are. But the good news is the rust shakes off fast. You can be rust-free after two hours of refresher.
 
 In a nutshell, that's the C rationale.
