@@ -56,6 +56,7 @@ int main(void)
     printf("1\n");
 
     if (fork() == 0) {
+        sleep(1);
         printf("2\n");
         exit(0);
     }
