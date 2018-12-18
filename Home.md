@@ -19,6 +19,7 @@ Everything can be found on the Pages tab to the right.
 * [[Javascript/Python cheatsheet]]
 * [[Installing Python 3 and pipenv]]
 * [[Command Line Primer]]
+* [[CS Coding Style Guidelines]]
 
 ## Other Lore
 
