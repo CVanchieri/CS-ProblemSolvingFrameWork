@@ -16,6 +16,7 @@ We'll use a variant of [K&R style](https://en.wikipedia.org/wiki/Indentation_sty
 * Flow control braces on the same line as the flow control statement.
 * 4 spaces for an indent.
 * Spaces around operators for clarity.
+  * Just a space _after_ a `;` or `,`.
 * Asterisk next to the variable name in pointer declarations.
 
 ```c
