@@ -5,9 +5,7 @@ Though individual programs might have their own guidelines, these are the style 
 Be compliant with [PEP 8](https://www.python.org/dev/peps/pep-0008/).
 
 * [Autopep8](https://pypi.org/project/autopep8/): tool to reformat code.
-
 * [autoflake](https://pypi.org/project/autoflake/): removes unused variables and imports.
-
 * [VS Code linting](https://code.visualstudio.com/docs/python/linting): can get the job done in VS Code.
 
 ## C
