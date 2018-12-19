@@ -2,6 +2,9 @@
 
 Everything can be found on the Pages tab to the right.
 
+## The Annex
+The annex can be found [here](https://github.com/LambdaSchool/CS-Wiki/wiki/The-Learning-Annex). This is a collection of repositories that used to be taught as part of the LambdaSchool CS curriculum but are now no longer taught for various reasons. For the curious student, the annex makes these archived repositories available for exploration. Note that these repositories are no longer actively managed. Bugs and issues may be prevalent in these repositories.
+
 ## CS Lore
 
 * [[Computer Science Reading List]]
