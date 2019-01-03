@@ -7,6 +7,7 @@ The annex can be found [here](https://github.com/LambdaSchool/CS-Wiki/wiki/The-L
 
 ## CS Lore
 
+* [[Solving Programming Problems]]
 * [[Computer Science Reading List]]
 * [[Arrays, prototypes, slices, calls]]
 * [[C and Cpp Debugging in VS Code]]
