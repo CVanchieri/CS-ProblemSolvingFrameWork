@@ -41,6 +41,7 @@ Web pages:
 
 * [The Practice of Programming](http://www.cs.princeton.edu/~bwk/tpop.webpage/)
 * [The Pragmatic Programmer: From Journeyman to Master](https://pragprog.com/book/tpp/the-pragmatic-programmer)
+* [Git Flight Rules](https://github.com/k88hudson/git-flight-rules): how to do lots of tasks in git (web)
 
 ## Software Development Methodologies
 
