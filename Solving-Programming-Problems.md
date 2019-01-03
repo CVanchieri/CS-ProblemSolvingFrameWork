@@ -1,5 +1,3 @@
-# Solving Programming Problems
-
 "What do we solve, and how do we solve it?"
 
 ## Get a clear understanding of the problem and requirements
