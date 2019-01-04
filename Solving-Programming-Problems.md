@@ -304,9 +304,9 @@ More:
   * Open the JSON file
   * Process lines
     * Read a line from the CSV
-      * **Keep the `name`, `zip`, and `total cost` fields**
+      * **Keep the `name`, `zip`, and `total sales` fields**
     * Decide if we keep the record
-      * **Parse the `total cost` field**
+      * **Parse the `total sales` field**
       * **If greater than 10,000,000:**
         * **Write a record to the JSON file**
   * Close the JSON file
