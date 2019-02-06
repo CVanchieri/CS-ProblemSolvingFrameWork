@@ -24,6 +24,7 @@ The annex can be found [here](https://github.com/LambdaSchool/CS-Wiki/wiki/The-L
 * [[Installing Python 3 and pipenv]]
 * [[Command Line Primer]]
 * [[CS Coding Style Guidelines]]
+* [[Interview Practice Resources]]
 * [Building a SQLite Clone in C](https://cstack.github.io/db_tutorial/)
 
 ## Other Lore
