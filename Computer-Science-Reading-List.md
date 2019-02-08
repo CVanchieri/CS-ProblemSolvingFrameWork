@@ -1,4 +1,4 @@
-Optional reading for your spare time...
+_**Optional** reading for your spare time..._
 
 ## Algorithms and Data Structures
 
