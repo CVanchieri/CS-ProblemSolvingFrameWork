@@ -7,7 +7,11 @@
 
 * [Pramp: live interview practice with peers](https://www.pramp.com/)
 
-## Code Challenges
+## Problem lists
+
+* [Techie Delight](https://www.techiedelight.com/list-of-problems/), with solutions
+
+## Code Challenge Sites
 
 ### Easy to Medium
 
