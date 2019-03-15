@@ -27,7 +27,7 @@ And try `pipenv`:
 
 ```
 $ pipenv --version
-pipenv, version 11.10.1
+pipenv, version [some remotely recent date, probably]
 ```
 
 Otherwise, keep reading. :)
