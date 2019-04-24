@@ -46,11 +46,11 @@ In order to exit out of the virtual environment, simply type `exit` at the promp
 Here's what's included in the box when you first boot up your shiny new virtual environment:
 
  - Ubuntu 16.04.6 LTS
- - Python 2.7.12
- - Python 3.5.2
- - Pip 8.1.1
- - GDB 7.11.1
- - GCC 5.4.0
+ - Python 2.7.12 (old version of Python that's still used quite a lot)
+ - Python 3.5.2 (newer version of Python, but not new enough for our purposes)
+ - Pip 8.1.1 (Python package manager)
+ - GDB 7.11.1 (a C debugger)
+ - GCC 5.4.0 (a C compiler)
 
 # Installing Some Additional Tools
 
