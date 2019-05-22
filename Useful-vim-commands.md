@@ -79,8 +79,6 @@ The following use [regexes](http://vimregex.com/):
 
 ## Cut/Copy/Paste
 
-Best used with [Visual Blocks](#visual-blocks).
-
 * `dd`: delete (cut) the current line
 * `dw`: delete the current word
 * `d$`: delete from cursor to end of line
