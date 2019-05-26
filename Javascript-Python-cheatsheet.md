@@ -748,7 +748,7 @@ for i in a:
 b = {'x':5, 'y':15, 'z':0}
 
 # Print x y z (the keys of the dict)
-for i in a:
+for i in b:
   print(i)
 ```
 
