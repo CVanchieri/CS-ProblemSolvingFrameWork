@@ -234,7 +234,7 @@ print(add(4, 5)) # prints 9
 |--|--|
 |`+`|Addition|
 |`-`|Subtraction|
-|`+`|Multiplication|
+|`*`|Multiplication|
 |`/`|Division|
 |`%`|Modulo (remainder)|
 |`--`|Pre-decrement, post-decrement|
@@ -255,7 +255,7 @@ The pre- and post-increment and decrement are notably absent.
 |--|--|
 |`+`|Addition|
 |`-`|Subtraction|
-|`+`|Multiplication|
+|`*`|Multiplication|
 |`/`|Division|
 |`%`|Modulo (remainder)|
 |`**`|Exponentiation (power)|
