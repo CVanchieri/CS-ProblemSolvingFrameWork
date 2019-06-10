@@ -1,4 +1,4 @@
-This author puts forth a really good argument for why he thinks every programmer needs to learn C: [https://www.pluralsight.com/blog/software-development/why-every-programmer-should-learn-c](https://www.pluralsight.com/blog/software-development/why-every-programmer-should-learn-c)
+This author puts forth a really good argument for why he thinks every programmer needs to learn C:</br>[https://www.pluralsight.com/blog/software-development/why-every-programmer-should-learn-c](https://www.pluralsight.com/blog/software-development/why-every-programmer-should-learn-c)
 
 The one overarching goal *with languages* in CS is to _learn to learn new languages_. It's not _to learn C_. It's just that C has a number of desirable characteristics.
 
