@@ -157,7 +157,7 @@ n^3                                       Drop the constant
 
 `O(n^3)` is the time complexity of this function.
 
-With practice, you can do this in your head. Looking back, the nested loop _must_ have been where the function spent the most of its time; an experienced dev would see that and just quickly compute the Big O for that function.
+With practice, you can do this in your head. Looking back, the nested loop _must_ have been where the function spent the most of its time; an experienced dev would see that and just quickly compute the Big O for that function from that nested loop alone.
 
 ## Example with two variables
 
