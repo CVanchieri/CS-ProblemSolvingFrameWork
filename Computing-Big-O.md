@@ -159,3 +159,14 @@ n^3                                       Drop the constant
 
 With practice, you can do this in your head. Looking back, the nested loop _must_ have been where the function spent the most of its time; an experienced dev would see that and just quickly compute the Big O for that function.
 
+## Example with two variables
+
+```python
+def foo(m, n):
+    for i in range(m * n):
+        print(i)
+```
+
+When you have two inputs like this, there's no way to reduce it farther than `O(m*n)`. That's the answer.
+
+Sometimes when `m` and `n` tend to be roughly similar, developers will casually say this is `O(n^2)`, but it's really `O(m*n)`.
