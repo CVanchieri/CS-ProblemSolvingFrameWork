@@ -9,6 +9,7 @@ The annex can be found [here](https://github.com/LambdaSchool/CS-Wiki/wiki/The-L
 
 * [[Getting Your Vagrant Environment Up and Running]]
 * [[Solving Programming Problems]]
+* [[Computing Big O]]
 * [[Polya's Problem Solving Techniques]]
 * [[Computer Science Reading List]]
 * [[Arrays, prototypes, slices, calls]]
