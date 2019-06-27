@@ -20,6 +20,8 @@ Goal: determine how runtime/number of operations scales up as the input scales u
 * Anything that triples the runtime each step is `O(3^n)`.
 * Anything that halves the runtime each step is `O(log n)` (e.g. binary search).
 * By _dominant term_ we mean, "thing which is largest given some large value of _n_, like 10000".
+* Loops that iterate over entire lists are `O(n)`, where `n` is the size of the list.
+* But loops that binary search over a list are `O(log n)`!
 
 ## Gotchas
 
