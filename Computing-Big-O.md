@@ -170,3 +170,30 @@ def foo(m, n):
 When you have two inputs like this, there's no way to reduce it farther than `O(m*n)`. That's the answer.
 
 Sometimes when `m` and `n` tend to be roughly similar, developers will casually say this is `O(n^2)`, but it's really `O(m*n)`.
+
+## Example with lists
+
+```python
+def foo(x):  # x is a list
+    for i in x:    # O(n)
+        print(i)       # O(1)
+```
+
+In this example, we're not explicitly passing in an `n` parameter, but rather a list.
+
+The list has a number of elements in it, and we refer to this number as `n` by default.
+
+The `for` loop is therefore `O(n)`, because it will iterate one time for each element in the list.
+
+Another example:
+
+```python
+def foo(x, y):  # x and y are lists
+    for i in x:    # O(n)
+        for j in y:    # O(m)
+            print(i, j)    # O(1)
+```
+
+Here we've used `n` to represent the number of elements in list `x`, and `m` to represent the number in list `y`.
+
+We can use our simplification rules and see that the entire function is `O(n*m*1)`, or `O(n*m)`. (Or `O(n^2)` if we're speaking informally, and assuming that `n` and `m` are very similar.)
