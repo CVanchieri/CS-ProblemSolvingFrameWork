@@ -64,8 +64,6 @@ _**Note**:_ Git Bash doesn't seem to cooperate if you're trying to install Pytho
 
 ### WSL
 
-**NOTE: WSL will NOT work for one of the modules since that module uses a GUI.**
-
 If you're running Windows 10+, you might want to install [WSL](https://docs.microsoft.com/en-us/windows/wsl/install-win10) with Ubuntu.
 
 Some people install WSL, anyway, for the C portion of the CS curriculum.
