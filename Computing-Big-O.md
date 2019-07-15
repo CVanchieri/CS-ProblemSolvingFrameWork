@@ -27,6 +27,7 @@ Goal: determine how runtime/number of operations scales up as the input scales u
 
 * Recursive functions are like loops, where the body of the function is the body of the loop.
 * You need to figure out how many times the function will call itself, and that's the Big O that you need to multiply against the Big O of the function body.
+* Keep in mind that recursion comes with an inherent memory cost that loops don't incur, since each recursive call adds an additional execution frame to the stack; in other words, calling a function is not free!
 
 ## Gotchas
 
