@@ -29,3 +29,5 @@ If strategically adding a blank line makes your code more readable, do it. Good 
 ## Get Familiar with the HackerRank UI and Process
 
 This is a sticking point for many students. HackerRank has an interesting UI and it takes some getting used to. Their tests also have a consistent format and structure that you should explore and take the time to get familiar with.
+
+* [Click here for a short HackerRank demo video](https://youtu.be/hWrxLqwplkc)
