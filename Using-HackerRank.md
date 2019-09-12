@@ -31,3 +31,20 @@ If strategically adding a blank line makes your code more readable, do it. Good 
 This is a sticking point for many students. HackerRank has an interesting UI and it takes some getting used to. Their tests also have a consistent format and structure that you should explore and take the time to get familiar with.
 
 * [Click here for a short HackerRank demo video](https://youtu.be/hWrxLqwplkc)
+
+### Function input and output
+
+The "input" is what gets passed to your function. This is likely different than the sample input they provide (that you might add to the `custom input` box). If you expand the main routine in the source code, you'll see how they parse the input and pass it to your function.
+
+The "output" is what your function returns. Examine the spec for exactly what this.
+
+Your function won't be tested on anything it `print()`s. Usefully, however, printed output appears in the `Debugging output` section at the bottom of the page after you run.
+
+### Figure out what gets passed to your function
+
+If you're having trouble figuring out exactly what your function gets passed to it, try this:
+
+* Add a line of code to your function to print the parameter(s)
+* Put the given sample case into the `custom input` box
+* Run the program
+* Check the output in the `Debugging Output` in the section at the bottom
