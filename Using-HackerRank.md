@@ -26,6 +26,19 @@ That doesn't mean "tons of comments". It means "good, concise comments in the ri
 
 If strategically adding a blank line makes your code more readable, do it. Good coders are able to recognize logically-connected "paragraphs" in their code and put whitespace between them to increase readability.
 
+## Try to use your core track language
+
+It will help you keep the rust off.
+
+## Remember the time complexities of various data structures
+
+|Time Complexity to Access|Python|Swift|Obj-C|Kotlin|Java|
+|:-:|:-:|:-:|:-:|:-:|:-:|
+|`O(1)`|`dict`, `set`|`Dictionary`, `Set`|`NSDictionary`, `NSSet`|`HashMap`, `Array`|`HashMap`, `ArrayList`|
+|`O(n)`|`list`|`Array`|`NSArray`|`LinkedList`|`LinkedList`|
+
+Just because `O(1)` is performant doesn't mean it's always the right tool for the job. Use the right tool for the job!
+
 ## Get Familiar with the HackerRank UI and Process
 
 This is a sticking point for many students. HackerRank has an interesting UI and it takes some getting used to. Their tests also have a consistent format and structure that you should explore and take the time to get familiar with.
