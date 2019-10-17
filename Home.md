@@ -7,6 +7,7 @@ The annex can be found [here](https://github.com/LambdaSchool/CS-Wiki/wiki/The-L
 
 ## CS Lore
 
+* [[Lambda Problem Solving Framework]]
 * [[Getting Your Vagrant Environment Up and Running]]
 * [[Solving Programming Problems]]
 * [[Using HackerRank]]
