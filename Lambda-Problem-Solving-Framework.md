@@ -43,6 +43,9 @@ code to test a hypothesis.)_
   clarified. **This is part of your job as a professional software developer**.
 * Identify the components of the problem.
   * These are pieces that work together to solve it.
+* If stuck, break the problem into smaller sub-problems. Solve those first using
+  this very framework.
+  * Once they're solved, you can compose them together into the main solution. 
 * Rewrite the problem in your own words.
 * Diagram how the data flows through the problem.
 * _Think like a villain_. What kinds of input might break the program? Where
@@ -108,6 +111,10 @@ however.)_
 * List the nouns and verbs in the problem description.
   * Map each one to an algorithm, process, data structure, object, method,
     function, etc.
+* Perfect can be the enemy of good.
+  * Even if your initial workable solution isn't performant enough, you can
+    iterate later.
+  * "Premature optimization is the root of all evil."
 
 ### You're done when
 
