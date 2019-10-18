@@ -38,13 +38,21 @@ code to test a hypothesis.)_
 
 ### Actions
 
+* **[Ask questions!](https://zellwk.com/blog/asking-questions/)** If something is missing or unclear in the spec, get it
+  clarified. **This is part of your job as a professional software developer**.
+  * Be specific.
+    * What errors did you get?
+    * What do you think might be wrong?
+  * Be clear and concise.
+    * Include what you have to.
+    * Don't include what you don't.
+    * Use unambiguous language.
+  * Show what solutions you've attempted so far.
 * Don't fear this part of the process. Enjoy it. Think of the problem like a
   curiosity to be explored, not something that is there to antagonize you.
   * Being fearful or antagonized won't do you any favors at work or in an
     interview.
   * Problem solving is the fun part!
-* **Ask questions!** If something is missing or unclear in the spec, get it
-  clarified. **This is part of your job as a professional software developer**.
 * Identify the components of the problem.
   * These are pieces that work together to solve it.
 * If stuck, break the problem into smaller sub-problems. Solve those first using
@@ -193,9 +201,9 @@ Remember: **Minutes of planning can be saved by hours of debugging!**
 
 ### You're done when
 
-* The program works on good data
-* The program doesn't fail on bad data or edge cases
-* The program passes all tests
+* The program works on good data.
+* The program doesn't fail on bad data or edge cases.
+* The program passes all tests.
 
 --------------------------------
 
