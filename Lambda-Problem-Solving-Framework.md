@@ -72,6 +72,9 @@ complete, actionable plan to solve that problem.
 If you find shortcomings in your understanding of the problem while you're
 planning, briefly drop back to Step 1 until the ambiguity is resolved.
 
+If you have not yet completed Step 1, you will end up planning to solve
+the wrong problem!
+
 When interviewing, it's very important that you do this step aloud!
 
 _(You aren't coding during this step, unless it's small pieces of throwaway
@@ -139,6 +142,11 @@ Steps 1 and 2, above.
 
 If you find shortcomings in your plan while you're implementing the solution,
 briefly drop back to Step 2 until the ambiguity is resolved.
+
+If you have not yet completed Step 2, you will spend far longer on this step
+than you have to.
+
+Remember: **Minutes of planning can be saved by hours of debugging!**
 
 ### Questions
 
