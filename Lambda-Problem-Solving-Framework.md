@@ -99,6 +99,9 @@ however.)_
   * Break down the steps you take into small enough pieces for a computer to
     understand.
 * Approach the problem from many angles.
+* Get a brute-force solution as quickly as possible, even if it's not
+  performant enough.
+  * It can lead you toward better solutions.
 * Come up with as many possible plans of attack as you can.
   * Choose the best one that satisfies performance needs.
 * Try to solve a simpler version of the problem.
