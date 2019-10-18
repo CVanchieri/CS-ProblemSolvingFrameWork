@@ -33,6 +33,8 @@ code to test a hypothesis.)_
 * How performant must the code be?
 * What is missing from the task description?
 * Are there third-party stakeholders who should be consulted?
+* What assumptions are you making?
+  * Do these assumptions need to be validated by anyone else on the team?
 
 ### Actions
 
@@ -54,6 +56,8 @@ code to test a hypothesis.)_
     is the description of the problem incomplete?
 * Run through tests cases in your head or on paper to make sure the results
   are what you think they should be.
+* If unable to get answers on something that's unclear in the spec, make your
+  best guess, and document your assumptions and decision.
 
 ### You're done when
 
