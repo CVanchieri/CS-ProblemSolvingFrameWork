@@ -17,6 +17,8 @@ as well.
 This is where you transcribe the description of the problem from the page
 into your head.
 
+When interviewing, it's very important that you do this step aloud!
+
 _(You aren't coding during this step, unless it's small pieces of throwaway
 code to test a hypothesis.)_
 
@@ -69,6 +71,8 @@ complete, actionable plan to solve that problem.
 
 If you find shortcomings in your understanding of the problem while you're
 planning, briefly drop back to Step 1 until the ambiguity is resolved.
+
+When interviewing, it's very important that you do this step aloud!
 
 _(You aren't coding during this step, unless it's small pieces of throwaway
 code to test a hypothesis. Pseudocode should be written during this step,
