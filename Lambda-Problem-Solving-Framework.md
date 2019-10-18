@@ -233,3 +233,5 @@ Remember: **Minutes of planning can be saved by hours of debugging!**
 * You can't think of anything else to reflect upon.
 
 --------------------------------
+
+Inspired by [[Polya's Problem Solving Techniques]].
