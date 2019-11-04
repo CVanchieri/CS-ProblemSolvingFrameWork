@@ -9,6 +9,10 @@ You'll find many problems are made up of sub-problems. You can use these steps
 on the main, outer problem, and use them on the inner sub-problems individually,
 as well.
 
+When you get to the end of the sequence, if you have the time, use what you have 
+learned reflecting on the problem to repeat the steps and iterate on your
+solution.
+
 --------------------------------
 
 <a name="understand"></a>
