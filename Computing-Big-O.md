@@ -14,6 +14,7 @@ Goal: determine how runtime/number of operations scales up as the input scales u
 
 ## Hints
 
+* If you have something that's `O(number_of_elements_in_the_data)`, we use `n` as shorthand for `number_of_elements_in_the_data`, so `O(n)`.
 * Individual statements tend to be `O(1)`.
 * Loop statements tend to be `O(how-many-times-they-loop)`.
 * Anything that doubles the runtime each step is `O(2^n)` (e.g. naive Fibonacci).
@@ -173,7 +174,7 @@ def foo(m, n):
         print(i)
 ```
 
-When you have two inputs like this, there's no way to reduce it farther than `O(m*n)`. That's the answer.
+When you have two inputs like this, there's no way to reduce it farther than `O(m*n)` (or `O(n*m)`, same thing). That's the answer.
 
 Sometimes when `m` and `n` tend to be roughly similar, developers will casually say this is `O(n^2)`, but it's really `O(m*n)`.
 
