@@ -6,13 +6,13 @@ Every minute you work on a problem is 5 experience points. Getting the right ans
 
 For the CS challenges, you don't need to pass the test. You just need to work on it.
 
-## Remember Polya's!
+## Remember UPER!
 
-Remember [Polya's](https://github.com/LambdaSchool/CS-Wiki/wiki/Polya%27s-Problem-Solving-Techniques)!
+Remember [UPER](https://github.com/LambdaSchool/CS-Wiki/wiki/Lambda-Problem-Solving-Framework)!
 
-Read the problem description slowly and carefully. Way more slowly and carefully than you need to. A mistake during Understanding the Problem will result in a wrong answer.
+Read the problem description slowly and carefully. Way more slowly and carefully than you need to. A mistake during _Understanding the Problem_ will result in a wrong answer.
 
-The Planning phase is equally important.
+The _Planning_ phase is equally important.
 
 ## Write Comments
 
