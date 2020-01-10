@@ -104,19 +104,27 @@ This is what worked for Beej. YMMV.
 
 ### WSL
 
-If you're running Windows 10+, you might want to install [WSL](https://docs.microsoft.com/en-us/windows/wsl/install-win10) with Ubuntu.
+If you're running Windows 10+, you might want to install the Windows Subsystem for Linux. This gives you a mini, integrated Linux system inside Windows. You then install and use Python from there.
 
-Some people install WSL, anyway, for the C portion of the CS curriculum.
+1. Update Windows to latest if you haven't already.
+2. [Install WSL from here](https://docs.microsoft.com/en-us/windows/wsl/install-win10).
+3. Go to the Microsoft store and install Ubuntu.
+4. Run Ubuntu to get a bash shell.
+5. Make a new username and password. This is completely separate from your Windows username and password, but I made mine the same so that I wouldn't forget.
+6. Upgrade the Ubuntu system. Run:
+   ```
+   sudo apt-get update
+   sudo apt-get upgrade
+   ```
+   Give your newly-entered password if prompted.
+7. Running `python3 --version` should give you 3.6 or higher.
+8. Run `pip install pipenv`.
 
-Install Python 3 in WSL:
+If you've installed VS Code, add the "Remote WSL" extension. This way you can run `code` from within Ubuntu.
 
-```
-sudo apt install python3
-```
-Install pipenv:
-```
-pip install pipenv
-```
+In the Ubuntu shell, you can run `explorer.exe .` in any directory to open a Windows Explorer window in that directory.
+
+Also in Windows Explorer, you can put `\\wsl$` in the URL bar to see your Ubuntu drive. (If it doesn't show up, relaunch your Ubuntu shell.)
 
 ## Linux
 Consult the documentation for your distribution.
