@@ -48,9 +48,49 @@ brew install python pipenv
 
 _**Note**:_ Git Bash doesn't seem to cooperate if you're trying to install Python on Windows. Try another terminal like Powershell. 
 
-### Native
+Recommend updating Windows to the latest version.
 
-[Install Python 3](https://www.python.org/downloads/windows/)
+### Windows Store
+
+Python 3 is in the Windows Store and can be installed from there.
+
+### Official Binaries
+
+When installing the official package, be sure to check the
+
+```
+[ ] Add to PATH
+```
+
+checkbox!!
+
+[Official Package](https://www.python.org/downloads/windows/)
+
+### Pipenv
+
+This is what worked for Beej. YMMV.
+
+1. Install Python, as per above.
+2. Bring up a shell (cmd.exe or Powershell)
+3. Run `py -m pip`
+4. Run `py -m pip install --user pipenv`
+
+   At this point, you should be able to always run pipenv with `py -m pipenv`, but that's a little inconvenient. Read on for making it easier.
+
+5. You'll see a message like this in the pipenv install output, but with a slightly different path:
+   ```
+   add C:\Users\username\AppData\Roaming\Python\Python38\Scripts to your path
+   ```
+6. Select that path (not including any quotes around it), and copy it
+7. Go to the Start menu, type "environment" and run the program `Edit Environment Variables`
+8. In the System Properties popup, hit the `Advanced` tab, then `Environment Variables`
+9. On the list of environment variables, doubleclick `Path`
+10. Click `New`
+11. Paste that path from step 5 into the new entry slot. Make sure there aren't any quotes around it.
+12. Click `OK`, `OK`, `OK`.
+13. Now you should be able to just run `pip` and `pipenv` in Powershell without putting `py -m` in front of it.
+
+#### Pipenv official instructions
 
 [Install pipenv per these instructions](http://docs.python-guide.org/en/latest/dev/virtualenvs/#virtualenvironments-ref)
 
