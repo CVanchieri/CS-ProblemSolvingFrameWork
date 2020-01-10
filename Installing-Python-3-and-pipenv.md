@@ -88,7 +88,8 @@ This is what worked for Beej. YMMV.
 10. Click `New`
 11. Paste that path from step 5 into the new entry slot. Make sure there aren't any quotes around it.
 12. Click `OK`, `OK`, `OK`.
-13. Now you should be able to just run `pip` and `pipenv` in Powershell without putting `py -m` in front of it.
+13. Relaunch any shells you have open.
+14. Now you should be able to just run `pip` and `pipenv` in Powershell without putting `py -m` in front of it.
 
 #### Pipenv official instructions
 
