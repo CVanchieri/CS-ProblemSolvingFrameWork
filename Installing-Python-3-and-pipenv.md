@@ -129,7 +129,7 @@ Also in Windows Explorer, you can put `\\wsl$` in the URL bar to see your Ubuntu
 
 If you run into trouble with the above, try the following:
 
-1. Open cmd.exe as an administrator and start bash with `bash`
+* Open cmd.exe as an administrator and start bash with `bash`
 
   1. Type `Python -V' and 'Python3 -V`
 
@@ -147,9 +147,9 @@ If you run into trouble with the above, try the following:
 
       2. `sudo apt-get upgrade`
 
-  2. Repeat 2.1 above to determine if you should use `Python` or `Python3` when using Python.  *Note:* inside the shell, you will always use *Python* as the command.
+  2. The steps above to determine if you should use `Python` or `Python3` when using Python.  *Note:* inside the shell, you will always use *Python* as the command.
 
-3. Make sure pip is installed for *Python 3*
+* Make sure pip is installed for *Python 3*
 
   1. `pip --version` and `pip3 --version`. One of these needs to respond with a version that has a version of Python 3 at the end of the line.
 
@@ -161,7 +161,7 @@ If you run into trouble with the above, try the following:
 
   3. Check versions and commands again. You will likely need to use `pip3` for the next step, but it's possible it may be just `pip`. Use the one with the version associated with Python 3.6.8
 
-4. Make sure pipenv is installed for Python 3 `python3 -m pipenv --version`
+* Make sure pipenv is installed for Python 3 `python3 -m pipenv --version`
 
   1. If not, install pipenv:
 
@@ -171,7 +171,7 @@ If you run into trouble with the above, try the following:
 
   2. Check the version again
 
-5. Try `pipenv shell`. If this fails, make sure that every reference in the error refers to Python 3.6. If not, review the above steps
+* Try `pipenv shell`. If this fails, make sure that every reference in the error refers to Python 3.6. If not, review the above steps
 
   1. If the error does refer to 3.6:
 
