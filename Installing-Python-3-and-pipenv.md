@@ -151,7 +151,7 @@ If you run into trouble with the above, try the following:
 
 3. Make sure pip is installed for *Python 3*
 
-  1. `pip --version` and `pip3 --version`.  One of these needs to respond with a version that has a version of Python 3 at the end of the line.  
+  1. `pip --version` and `pip3 --version`. One of these needs to respond with a version that has a version of Python 3 at the end of the line.
 
   2. If you only have it for 2.7, you will need to install for 3 with:
 
@@ -159,19 +159,19 @@ If you run into trouble with the above, try the following:
 
     2. `sudo apt install python3-pip`
 
-  3. Check versions and commands again.  You will likely need to use `pip3` for the next step, but it's possible it may be just `pip`.  Use the one with the version associated with Python 3.6.8
+  3. Check versions and commands again. You will likely need to use `pip3` for the next step, but it's possible it may be just `pip`. Use the one with the version associated with Python 3.6.8
 
 4. Make sure pipenv is installed for Python 3 `python3 -m pipenv --version`
 
   1. If not, install pipenv:
 
-    1. `sudo apt update && sudo apt upgrade` (if you didn't just do this above)
+    1. `sudo apt update && sudo apt upgrade` (if you didn't just do this above)
 
-    2. `pip3 install --user pipenv`
+    2. `pip3 install --user pipenv`
 
   2. Check the version again
 
-5. Try `pipenv shell`.  If this fails, make sure that every reference in the error refers to Python 3.6.  If not, review the above steps
+5. Try `pipenv shell`. If this fails, make sure that every reference in the error refers to Python 3.6. If not, review the above steps
 
   1. If the error does refer to 3.6:
 
@@ -179,9 +179,9 @@ If you run into trouble with the above, try the following:
 
     2. Confirm that `/usr/bin/python3 --version` refers to 3.6.8
 
-    3. `pipenv --three --python=`which python3``  *NOTE* that there are backticks (`) around *which python3*
+    3. `pipenv --three --python=`which python3`` *NOTE* that there are backticks (`) around *which python3*
 
-    4. This should create the shell forcing it to use 3.6.8
+    4. This should create the shell forcing it to use 3.6.8
 
 ## Linux
 Consult the documentation for your distribution.
