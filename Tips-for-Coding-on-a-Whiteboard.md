@@ -1,6 +1,6 @@
 Coding is hard. Coding on a whiteboard doubly so. Don't be discouraged! Like any skill, whiteboard coding can be improved with practice. Here are some tips to help you improve:
 
-## 1. Have an idea of what you'll be coding before you start. 
+## 1. Have an idea of what you'll be coding before you start
 *_DON'T_* just blindly start writing down code when you don't have a plan. Before you even uncap the pen, you should spend at least 5 minutes asking your interviewer questions and clarifications. By asking the right questions, you can usually gain insight into how to approach the problem. Make absolutely sure you understand the problem before coding. Steps 1 & 2 of [UPER](https://github.com/LambdaSchool/CS-Wiki/wiki/Polya%27s-Problem-Solving-Techniques) are absolutely crucial.
 
 ## 2. Never think in silence
