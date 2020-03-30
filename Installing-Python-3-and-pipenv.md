@@ -6,8 +6,6 @@ Additionally, we'll be using the pipenv virtual environment manager. Think of it
 
 Unfortunately, we haven't found a way to get Anaconda to play nicely with pipenv. If you get them working together, please let your instructor know how you did it.
 
-For now, you'll have to uninstall Anaconda from your machine. Look up how to do this for your particular Anaconda version and operating system. 
-
 ## Testing the Install
 
 If you can run `python` or `python3` and see a 3.x version, and you can run `pipenv`, you're good to go.
