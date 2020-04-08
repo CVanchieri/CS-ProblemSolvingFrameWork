@@ -12,6 +12,7 @@ The annex can be found [here](https://github.com/LambdaSchool/CS-Wiki/wiki/The-L
 * [[Solving Programming Problems]]
 * [[Using HackerRank]]
 * [[Computing Big O]]
+* [[Python's Default Argument Values and Lists]]
 * [[Polya's Problem Solving Techniques]]
 * [[Computer Science Reading List]]
 * [[Arrays, prototypes, slices, calls]]
