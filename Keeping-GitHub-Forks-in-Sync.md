@@ -81,7 +81,7 @@ $ git fetch upstream
 
 Now you have all the new commits from `upstream`, but you have to merge them with all the changes you've been making.
 
-First, make sure you've fully committed your stuff:
+**First, make sure you've fully committed your stuff**:
 
 ```bash
 $ git status
