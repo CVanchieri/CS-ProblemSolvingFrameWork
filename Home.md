@@ -27,7 +27,7 @@ The annex can be found [here](https://github.com/LambdaSchool/CS-Wiki/wiki/The-L
 * [[How to Read Specifications and Code]]
 * [[Useful vim commands]]
 * [[Javascript/Python cheatsheet]]
-* [[Installing Python 3 and pipenv]]
+* [[Installing Python 3]]
 * [[Command Line Primer]]
 * [[CS Coding Style Guidelines]]
 * [[Interview Practice Resources]]
